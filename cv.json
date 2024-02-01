@@ -1,0 +1,413 @@
+{
+    "basics": {
+      "name": "Pablo Valenzuela",
+      "label": "Full Stack Engineer and Technology Consultant", 
+      "image": "/me.jpeg",
+      "email": "pabloce.valenzuela@gmail.com",
+      "phone": "+56 9 7925 0156",
+      "url": "https://midu.dev",
+      "summary": "Computer Engineer with a postgraduate degree in PUC Project Management, attractive experienceas Founder, CTO, Senior Software Engineer Full Stack, IT Rapporteur and has a broad vision that allows him to contribute, solve and innovate. He developed the first mvp for a Startup. He is responsible, a techno-entrepreneur, focused on achieving goals, proactive, a musician and a runner.",
+      "location": {
+        "address": "",
+        "postalCode": "08820",
+        "city": "Machalí, O'higgins region",
+        "countryCode": "CL",
+        "region": "Chile"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "pablo-valenzuela-carcamo",
+          "url": "https://www.linkedin.com/in/pablo-valenzuela-carcamo/"
+        },
+        {
+          "network": "GitHub",
+          "username": "pablocevalenzuela",
+          "url": "https://github.com/pablocevalenzuela"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "EHAC Group, Chile. S.A",
+        "position": "Senior Full Stack Engineer, for project",
+        "modality": "Remote",
+        "url": "https://www.ehac.cl/",
+        "startDate": "2023-10-01",
+        "endDate": "2024-01-30",
+        "summary": "In 3 months I developed a customized ERP Software for my client's business sector and with various modules (finished project). I raised requirements from the Product Owner and together we defined Sprint with initial Backlog and respecting deadlines. Technologies used: React, Ruby on Rails, JavaScript, Bootstrap, Git and AWS(Lambda, Route53, S3, RDS and EC2).",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Transport Casablanca S.A",
+        "position": "Senior Full Stack Engineer, for project",
+        "url": "https://www.tcasablanca.cl/",
+        "startDate": "2023-07-01",
+        "endDate": "2023-10-30",
+        "summary": "In 2 months I developed CRM modules to manage leads and requirements from forms on the corporate website. I defined requirements with Product Owner and Sprint with Backlog and respecting deadlines. Technologies used: React, Ruby on Rails, Bootstrap, Git and AWS (Lambda, Route53, S3 y RDS).",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Ecoinput StartUp, Chile",
+        "position": "Founder, Senior Software Engineer, CTO and part time Technology Advisor",
+        "url": "https://www.ecoinput.com/",
+        "startDate": "2019-11-01",
+        "endDate": "2024-01-30",
+        "summary": "I created an agile cell in 2 months, aligned with the Startup BM canvas and for the development of the first MVP. I was responsible for all stages of the lifecycle, from requirements gathering to MVP deadline in production within 3 months. Coordinate schedule and critical path. I developed the Arturito Bot Web Application in 2 months and to improve SLAs and management of Ecoinput customer requests. Technologies used: Ruby, Ruby on Rails, React, Bootstrap, Python, Git and AWS (Lambda, Route53, S3, RDS, DynamoDB and Elastic Beanstalk).",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Ripley Bank, Chile",
+        "position": "Tech Project Manager (Scrum Master)",
+        "url": "https://www.bancoripley.cl/",
+        "startDate": "2017-08-30",
+        "endDate": "2019-09-30",
+        "summary": "I formed and led a new agile outsourcing cell to resolve in less time and with higher quality the evolution of Product Owners of commercial business lines for banking core and external client portal, I managed a portfolio of 8 Tech projects, their programs and schedules using the best practices of Scrum and PMI. Technologies used: Jira, Confluence, DevOps, Kafka, AWS, JEE, DDD, Spring, Angular and Oracle DB.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Tessi Group, Chile",
+        "position": "Tech Project Manager (Scrum Master)",
+        "url": "https://www.tessi.cl/",
+        "startDate": "2017-04-01",
+        "endDate": "2017-10-30",
+        "summary": "I formed an agile cell in 2 months and with the necessary skills for the Banco BBVA Colombia client, I coordinated the entire life cycle of the Bank's Business Application, from gathering requirements with Product Owners to managing the roadmap, backlog and deadlines using Scrum and PMI best practices. Technologies used: Oracle WebLogic, DDD, DevOps, Kafka, BPM, Camunda, JEE, Angular, React, Node.JS and HTML5.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "CMF (Commission for the Financial Market of Chile)",
+        "position": "Senior Software Engineer",
+        "url": "https://www.cmfchile.cl/portal/principal/613/w3-channel.html",
+        "startDate": "2017-04-01",
+        "endDate": "2017-12-30",
+        "summary": "I developed the evolutionary ones for the institutional Intranet and improvements to the SBIF API, I developed new components for purchasing and performance evaluation modules. I improved requirements gathering by implementing Scrum user stories, developed deliverable prototypes for the Product Owner and managed a portfolio of 3 technological projects. Technologies used: Java EE/Oracle Weblogic, Jboss, HTML5, Angular and Node.JS.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "DIPRES - Chilean Ministry of Finance",
+        "position": "Software Engineer",
+        "url": "https://www.dipres.gob.cl/598/w3-channel.html",
+        "startDate": "2015-08-01",
+        "endDate": "2016-03-30",
+        "summary": "I developed the evolutions of the SIGFE 2 System and solved incidents reported in modules and collected requirements in user stories. Technologies used: Java JEE/SOA Oracle Web Services, Angular, DDD, DevOps, Spring Framework and Eclipse IDE.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "The Andes, Chile",
+        "position": "Part time Technology Advisor to Java/Oracle/SOA WebLogic",
+        "url": "https://www.cajalosandes.cl/",
+        "startDate": "2014-06-01",
+        "endDate": "2015-01-30",
+        "summary": "I was responsible for creating a technical report to suggest to the Development Engineer team a technological stack and good SOA practices to implement in business applications. I successfully managed to apply my knowledge of SOA and Oracle technologies previously gained as an IT Relator.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Linux Latin America, Chile",
+        "position": "Oracle, SOA and Scrum Technologies Rapporteur for Banco Falabella and Scotiabank Teams.",
+        "url": "#",
+        "startDate": "2014-04-01",
+        "endDate": "2015-03-30",
+        "summary": "I was a Rapporteur of courses to develop applications using Java, Oracle middleware, JEE, SOA, WebLogic, IBM WAS, enterprise application architecture and project management with Scrum. I managed to successfully complete all the courses taught at the Consultancy. Technologies used: Java, JEE, Oracle middleware, SOA, WebLogic and IBM WAS.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "CMP Trainings, Chile",
+        "position": "Technology Advisor",
+        "url": "#",
+        "startDate": "2011-03-01",
+        "endDate": "2012-08-30",
+        "summary": "I was Java/Oracle Advisor for the critical applications infrastructure project, Oracle WebLogic, Oracle DB, JSE/EE rapporteur, definition of the business domain model for the database and implementation of Scrum. I successfully advised my client before implementing an ERP system, promptly reporting the risks detected in the preliminary pre-project report.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Isamédica Clinic, Chile",
+        "position": "IT Assistant Technician and Web Developer",
+        "url": "#",
+        "startDate": "2010-10-01",
+        "endDate": "2014-03-30",
+        "summary": "I developed a statistical management software project, defined a functional test plan, database standardization, documentation and control with Jira. I developed Web Application for statistical queries of the outpatient service, in parallel reports were created with SQL Views for the Clinical project for management. Technologies used: Oracle MySql, Microsoft Sql Server, SQL, HTML 5 and Web API.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Conicyt, Chile",
+        "position": "Software Engineer, for project",
+        "url": "#",
+        "startDate": "2012-03-01",
+        "endDate": "2012-11-30",
+        "summary": "I developed two Software Projects (MVP) for Conicyt funding contests in Chile and respecting the initial schedule of 4 months until the pivot was put into production. Technologies used: MySQL, OOP, DDD, SOLID, HTML5 and Ruby on Rails.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Metalfue, Contractor at Codelco Chile",
+        "position": "Web Developer",
+        "url": "#",
+        "startDate": "2010-03-01",
+        "endDate": "2012-09-30",
+        "summary": "I developed the Corporate Website, requirements gathering, creation of the Schedule, Hosting provider budget, VPS, deliverables, white equipment, production transition and documentation. Technologies used: Angular, Bootstrap, JavaScript, HTML5 and MySql.",
+        "highlights": [
+          "Started the company"
+        ]
+      }
+    ],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [
+      {
+      "institution": "IP Santo Tomás, Chile",
+      "url": "#",
+      "area": "IT technician",
+      "studyType": "Bachelor",
+      "startDate": "2008-01-30",
+      "endDate": "2010-01-30",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "AIEP, Andres Bello University, Chile",
+      "url": "#",
+      "area": "Computer Engineer, mention in Systems Development",
+      "studyType": "Bachelor",
+      "startDate": "2010-01-30",
+      "endDate": "2015-01-30",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "Pontifical Catholic University of Chile",
+      "url": "#",
+      "area": "Diploma in Project Management with PMI certification",
+      "studyType": "Bachelor",
+      "startDate": "2010-01-30",
+      "endDate": "2010-01-30",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "Pontifical Catholic University of Chile",
+      "url": "#",
+      "area": "Product Development Seminar, IT marketing, Work Group and case studies",
+      "studyType": "Bachelor",
+      "startDate": "2011-01-30",
+      "endDate": "2011-01-30",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "Pontifical Catholic University of Chile",
+      "url": "#",
+      "area": "Innovation Seminar in IT and organizations",
+      "studyType": "Bachelor",
+      "startDate": "2011-01-30",
+      "endDate": "2011-01-30",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "BDI Consultant, Santiago, Chile",
+      "url": "#",
+      "area": "Advanced course on Business Applications with Open Source tech stack; PHP5, OOP, HTML5, MySql, UML and MVC.",
+      "studyType": "Bachelor",
+      "startDate": "2012-01-30",
+      "endDate": "2012-01-30",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "IT Wall Consultant, Santiago, Chile:",
+      "url": "#",
+      "area": "Advanced course on Business Applications with Oracle tech stack: JSE, Java EE and DB Oracle.",
+      "studyType": "Bachelor",
+      "startDate": "2012-01-30",
+      "endDate": "2012-01-30",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }
+  ],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [
+      {
+        "name": "HTML",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "Ruby",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        ]
+      },
+      {
+        "name": "Ruby On Rails",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "React/Angular",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        ]
+      },
+      {
+        "name": "AWS/Cloud Computing",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        ]
+      },
+      {
+        "name": "SQL/MySQL/PostgreSQL",
+        "level": "Avanzado",
+        "keywords": [
+          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        ]
+      },
+      {
+        "name": "Git/GitHub",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
+        ]
+      },
+      {
+        "name": "Unix/Linux",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        ]
+      },
+      {
+        "name": "DevOps/OOP/SOLID/DDD",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        ]
+      },
+      {
+        "name": "Python",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "Advanced"
+      }
+    ],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [
+      {
+        "name": "Digital services quote advisor",
+        "isActive": true,
+        "description": "I developed for Ecoinput.com a virtual advisor that guides the prospect with a question-answer to choose the digital service that best suits their needs.",
+        "highlights": [
+          "achieved more sales",
+          "reduced bounce rate"
+        ],
+        "url": "https://www.asesor-digital.ecoinput.com/"
+      },
+      {
+        "name": "Job English abbreviations",
+        "isActive": true,
+        "description": "Is a engine in Ruby that manager English words abbreviations and the save into a Hash.",
+        "highlights": [
+          "More time to develop ideas and less time for bureaucracy"
+        ],
+        "github": "https://github.com/pablocevalenzuela/job_english_abbreviations"
+      }
+    ]
+  }
