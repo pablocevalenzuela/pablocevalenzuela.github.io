@@ -1,7 +1,7 @@
 {
     "basics": {
       "name": "Pablo Valenzuela",
-      "label": "Full Stack Engineer and Technology Consultant", 
+      "label": "Senior Full Stack Engineer and IT Consultant", 
       "image": "/me.jpeg",
       "email": "pabloce.valenzuela@gmail.com",
       "phone": "+56 9 7925 0156",
@@ -64,7 +64,7 @@
       },
       {
         "name": "Ripley Bank, Chile",
-        "position": "Tech Project Manager (Scrum Master)",
+        "position": "Project Manager (Scrum Master)",
         "url": "https://www.bancoripley.cl/",
         "startDate": "2017-08-30",
         "endDate": "2019-09-30",
@@ -75,7 +75,7 @@
       },
       {
         "name": "Tessi Group, Chile",
-        "position": "Tech Project Manager (Scrum Master)",
+        "position": "Project Manager (Scrum Master)",
         "url": "https://www.tessi.cl/",
         "startDate": "2017-04-01",
         "endDate": "2017-10-30",
@@ -108,7 +108,7 @@
       },
       {
         "name": "The Andes, Chile",
-        "position": "Part time Technology Advisor to Java/Oracle/SOA WebLogic",
+        "position": "Part time IT Architect Java/Oracle/SOA Weblogic and WAS",
         "url": "https://www.cajalosandes.cl/",
         "startDate": "2014-06-01",
         "endDate": "2015-01-30",
@@ -119,7 +119,7 @@
       },
       {
         "name": "Linux Latin America, Chile",
-        "position": "Oracle, SOA and Scrum Technologies Rapporteur for Banco Falabella and Scotiabank Teams.",
+        "position": "Java, JEE and Scrum Rapporteur",
         "url": "#",
         "startDate": "2014-04-01",
         "endDate": "2015-03-30",
@@ -141,7 +141,7 @@
       },
       {
         "name": "Isamédica Clinic, Chile",
-        "position": "IT Assistant Technician and Web Developer",
+        "position": "Computer Assistant and Web Developer",
         "url": "#",
         "startDate": "2010-10-01",
         "endDate": "2014-03-30",
@@ -290,6 +290,20 @@
       "summary": "Description…"
     }],
     "skills": [
+      {
+        "name": "Docker/Kubernetes",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "Web Standard (W3C) and best practices",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
       {
         "name": "HTML",
         "level": "Master",
