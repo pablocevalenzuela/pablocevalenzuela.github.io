@@ -15,9 +15,8 @@
         "region": "Chile"
       },
       "languages": {
-          "Spanish": "Native Spanish",
-          "-": " - ",
-          "English": "English"
+          "spanish": "Spanish",
+          "english": "English"
       },  
       "profiles": [
         {
