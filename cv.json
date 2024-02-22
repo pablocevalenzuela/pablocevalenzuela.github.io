@@ -1,6 +1,6 @@
 {
     "basics": {
-      "name": "Pablo Valenzuela",
+      "name": "Pablo Valenzuelaa",
       "label": "Senior Full Stack Engineer and IT Consultant", 
       "image": "/me.jpeg",
       "email": "pabloce.valenzuela@gmail.com",
@@ -16,7 +16,8 @@
       },
       "languages": {
           "Spanish": "Native Spanish",
-          "Spanish": "Native Spanish"
+          "-": " - ",
+          "English": "English"
       },  
       "profiles": [
         {
