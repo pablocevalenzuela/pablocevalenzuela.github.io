@@ -372,7 +372,7 @@
         ]
       },
       {
-        "name": "DevOps/OOP/SOLID/DDD",
+        "name": "DevOps/OOP/SOLID/DDD/Clean Code",
         "level": "Avanzado",
         "keywords": [
           "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
@@ -380,6 +380,20 @@
       },
       {
         "name": "Python",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "Scrum/Pmbok PMI/Shapeup/CI-CD",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "Jira/Confluence",
         "level": "Avanzado",
         "keywords": [
           "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
