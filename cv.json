@@ -61,7 +61,7 @@
         "url": "https://www.ecoinput.com/",
         "startDate": "2019-11-01",
         "endDate": "2024-01-30",
-        "summary": "I created an agile cell in 2 months, aligned with the Startup BM canvas and for the development of the first MVP. I was responsible for all stages of the lifecycle, from requirements gathering to MVP deadline in production within 3 months. Coordinate schedule and critical path. I developed the Arturito Bot Web Application in 2 months and to improve SLAs and management of Ecoinput customer requests. Technologies used: Ruby, Ruby on Rails, React, Bootstrap, Python, Git and AWS (Lambda, Route53, S3, RDS, DynamoDB and Elastic Beanstalk).",
+        "summary": "I created an agile cell in 2 months, aligned with the Startup BM canvas and for the development of the first MVP. I was responsible for all stages of the lifecycle, from requirements gathering to MVP deadline in production within 3 months. Coordinate schedule and critical path. I developed the Arturito Bot Web Application in 2 months and to improve SLAs and management of Ecoinput customer requests. Technologies used: Ruby, Ruby on Rails, React, Docker/Kubernetes, Bootstrap, Python, Git and AWS (Lambda, Route53, S3, RDS, DynamoDB and Elastic Beanstalk).",
         "highlights": [
           "Started the company"
         ]
@@ -83,7 +83,7 @@
         "url": "https://www.tessi.cl/",
         "startDate": "2017-04-01",
         "endDate": "2017-10-30",
-        "summary": "I formed an agile cell in 2 months and with the necessary skills for the Banco BBVA Colombia client, I coordinated the entire life cycle of the Bank's Business Application, from gathering requirements with Product Owners to managing the roadmap, backlog and deadlines using Scrum and PMI best practices. Technologies used: Oracle WebLogic, DDD, DevOps, Kafka, BPM, Camunda, JEE, Angular, React, Node.JS and HTML5.",
+        "summary": "I formed an agile cell in 2 months and with the necessary skills for the Banco BBVA Colombia client, I coordinated the entire life cycle of the Bank's Business Application, from gathering requirements with Product Owners to managing the roadmap, backlog and deadlines using Scrum and PMI best practices. Technologies used: Oracle WebLogic, DevOps/DDD, Kafka, BPM, Java/JEE, Angular/React, Jira/Confluence, Node.JS and HTML5.",
         "highlights": [
           "Started the company"
         ]
