@@ -40,8 +40,6 @@
         "startDate": "2023-10-01",
         "endDate": "2024-01-30",
         "summary": "In 7 months I developed a modular ERP APP hosted on AWS, offering high performance with microservices and horizontal scalability. (finished project). Advised on migration to Cloud Computing with AWS and I created an AWS budget, I also raised requirements in conjunction with Product Owners, Uses Case, User Stories and was carried out Product backlog, sprint and deadlines implementing Scrum and PMI. Technology Stack: JavaScript, Python, React, Django, API REST, WebSockets, Docker, Kubernetes, Bootstrap, Git and AWS (Lambda, Route53, S3, RDS and Beanstalk).",
-        "": "<p></p>",
-        "": "<p>dd</p>",
         "highlights": [
           "Started the company"
         ]
@@ -52,7 +50,7 @@
         "url": "#",
         "startDate": "2023-07-01",
         "endDate": "2023-10-30",
-        "summary": "In 2 months I developed CRM modules to manage leads and requirements from forms on the corporate website. I defined requirements with Product Owner and Sprint with Backlog and respecting deadlines. Technologies used: React, Ruby on Rails, Bootstrap, Git and AWS (Lambda, Route53, S3 y RDS).",
+        "summary": "In 2 months I developed an App with CRM modules for managing leads and notifications via email to operations area of ​​requirements from the corporate web channel (project completed). I advised on the adoption of AWS, created an AWS budget and raised requirements with Product Owner(KAM) through User Stories, product backlog, sprint and defining deadlines Using Scrum and PMI. Technology Stack: React, Python, Django, JavaScript, DRF, Git and AWS (Serverless, Ruta53, S3, RDS, Docker and EC2).",
         "highlights": [
           "Started the company"
         ]
@@ -63,7 +61,7 @@
         "url": "https://www.ecoinput.com/",
         "startDate": "2019-11-01",
         "endDate": "2024-01-30",
-        "summary": "I created an agile cell in 2 months, aligned with the Startup BM canvas and for the development of the first MVP. I was responsible for all stages of the lifecycle, from requirements gathering to MVP deadline in production within 3 months. Coordinate schedule and critical path. I developed the Arturito Bot Web Application in 2 months and to improve SLAs and management of Ecoinput customer requests. Technologies used: Ruby, Ruby on Rails, React, Docker/Kubernetes, Bootstrap, Python, Git and AWS (Lambda, Route53, S3, RDS, DynamoDB and Elastic Beanstalk).",
+        "summary": "I created an agile cell in 2 months and aligned with the business model and for the development of the first MVP. I was responsible for all stages of the lifecycle, from requirements gathering to MVP deadline in production within 3 months. I defined schedule and critical path. Additional projects were the development of App Arturito Bot in 2 months in order to improve Ecoinput customer request SLAs. Technology Stack: Python, JavaScript, React, Django, DRF, WebSockets, Git and AWS (Route53, S3, RDS, Beanstalk and EC2), Docker and Kubernetes.",
         "highlights": [
           "Started the company"
         ]
