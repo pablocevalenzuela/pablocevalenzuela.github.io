@@ -58,7 +58,7 @@
       {
         "name": "Ecoinput StartUp, Chile",
         "position": "Founder, Senior Software Engineer, CTO and part time Technology Advisor",
-        "url": "https://www.ecoinput.com/",
+        "url": "https://www.ecoinput.com",
         "startDate": "2019-11-01",
         "endDate": "2024-01-30",
         "summary": "I created an agile cell in 2 months and aligned with the business model and for the development of the first MVP. I was responsible for all stages of the lifecycle, from requirements gathering to MVP deadline in production within 3 months. I defined schedule and critical path. Additional projects were the development of App Arturito Bot in 2 months in order to improve Ecoinput customer request SLAs. Technology Stack: Python, JavaScript, React, Django, DRF, WebSockets, Git and AWS (Route53, S3, RDS, Beanstalk and EC2), Docker and Kubernetes.",
@@ -69,7 +69,7 @@
       {
         "name": "Ripley Bank, Chile",
         "position": "Project Manager (Scrum Master)",
-        "url": "https://www.bancoripley.cl/",
+        "url": "#",
         "startDate": "2017-08-30",
         "endDate": "2019-09-30",
         "summary": "I was responsible for setting up an insourcing cell in 3 months for the Bank's Innovation Management and for resolve Product Owner requirements for financial products and back-office. Managed portfolio of 8 projects related to business lines, I created a project schedule, critical routes to optimize related resources and achieve deadlines. Evolutionary issues were resolved according to the deadline agreed with Product Owners and were successfully implemented. good-practices Scrum for managing User Stories, Backlog and Sprints. Timely response and organized requests. It is possible to work in harmony with insourcing and outsourcing cells during the development of evolutionary of Home Banking and BackOffice. Technology Stack: Jira, Confluence, DevOps(CI/CD), Java, Jenkins, JEE, Spring Boot, SOA, DDD, Angular and Oracle DB.",
@@ -80,7 +80,7 @@
       {
         "name": "Tessi Group, Chile",
         "position": "Project Manager (Scrum Master)",
-        "url": "https://www.tessi.cl/",
+        "url": "#",
         "startDate": "2017-04-01",
         "endDate": "2017-10-30",
         "summary": "I formed an agile cell in 2 months and with the necessary skills for the Banco BBVA Colombia client, I coordinated the entire life cycle of the Bank's Business Application, from gathering requirements with Product Owners to managing the roadmap, backlog and deadlines using Scrum and PMI best practices. Technologies used: Oracle WebLogic, DevOps/DDD, Kafka, BPM, Java/JEE, Angular/React, Jira/Confluence, Node.JS and HTML5.",
@@ -91,7 +91,7 @@
       {
         "name": "CMF (Commission for the Financial Market of Chile)",
         "position": "Senior Software Engineer",
-        "url": "https://www.cmfchile.cl/portal/principal/613/w3-channel.html",
+        "url": "#",
         "startDate": "2017-04-01",
         "endDate": "2017-12-30",
         "summary": "I developed the evolutionary ones for the institutional Intranet and improvements to the SBIF API, I developed new components for purchasing and performance evaluation modules. I improved requirements gathering by implementing Scrum user stories, developed deliverable prototypes for the Product Owner and managed a portfolio of 3 technological projects. Technologies used: Java EE/Oracle Weblogic, Jboss, HTML5, Angular and Node.JS.",
@@ -102,7 +102,7 @@
       {
         "name": "DIPRES - Chilean Ministry of Finance",
         "position": "Software Engineer",
-        "url": "https://www.dipres.gob.cl/598/w3-channel.html",
+        "url": "#",
         "startDate": "2015-08-01",
         "endDate": "2016-03-30",
         "summary": "I developed the evolutions of the SIGFE 2 System and solved incidents reported in modules and collected requirements in user stories. Technologies used: Java JEE/SOA Oracle Web Services, Angular, DDD, DevOps, Spring Framework and Eclipse IDE.",
@@ -113,7 +113,7 @@
       {
         "name": "The Andes, Chile",
         "position": "Part time IT Architect Java/Oracle/SOA Weblogic and WAS",
-        "url": "https://www.cajalosandes.cl/",
+        "url": "#",
         "startDate": "2014-06-01",
         "endDate": "2015-01-30",
         "summary": "I was responsible for creating a technical report to suggest to the Development Engineer team a technological stack and good SOA practices to implement in business applications. I successfully managed to apply my knowledge of SOA and Oracle technologies previously gained as an IT Relator.",
