@@ -39,7 +39,14 @@
         "url": "https://www.ehac.cl/",
         "startDate": "2023-10-01",
         "endDate": "2024-01-30",
-        "summary": "In 3 months I developed a customized ERP Software for my client's business sector and with various modules (finished project). I raised requirements from the Product Owner and together we defined Sprint with initial Backlog and respecting deadlines. Technologies used: React, Ruby on Rails, JavaScript, Bootstrap, Git and AWS(Lambda, Route53, S3, RDS and EC2).",
+        "summary": "
+          In 7 months I developed a modular ERP APP hosted on AWS, offering high performance with
+         microservices and horizontal scalability. (finished project).
+         Advised on migration to Cloud Computing with AWS and I created an AWS budget, I also raised
+          requirements in conjunction with Product Owners, Uses Case, User Stories and was carried out
+          Product backlog, sprint and deadlines implementing Scrum and PMI.
+          Technology Stack: JavaScript, Python, React, Django, API REST, WebSockets, Docker, Kubernetes, Bootstrap, Git and AWS (Lambda, Route53, S3, RDS and Beanstalk).
+          ",
         "highlights": [
           "Started the company"
         ]
