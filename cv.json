@@ -36,9 +36,11 @@
         "name": "EHAC Group, Chile. S.A",
         "position": "Senior Full Stack Engineer, for project",
         "modality": "Remote",
-        "url": "https://www.ehac.cl/",
+        "url": "#",
         "startDate": "2023-10-01",
         "endDate": "2024-01-30",
+        "summary": "In 7 months I developed a modular ERP APP hosted on AWS, offering high performance with microservices and horizontal scalability. (finished project). Advised on migration to Cloud Computing with AWS and I created an AWS budget, I also raised requirements in conjunction with Product Owners, Uses Case, User Stories and was carried out Product backlog, sprint and deadlines implementing Scrum and PMI. Technology Stack: JavaScript, Python, React, Django, API REST, WebSockets, Docker, Kubernetes, Bootstrap, Git and AWS (Lambda, Route53, S3, RDS and Beanstalk).",
+        "summary": "",
         "summary": "In 7 months I developed a modular ERP APP hosted on AWS, offering high performance with microservices and horizontal scalability. (finished project). Advised on migration to Cloud Computing with AWS and I created an AWS budget, I also raised requirements in conjunction with Product Owners, Uses Case, User Stories and was carried out Product backlog, sprint and deadlines implementing Scrum and PMI. Technology Stack: JavaScript, Python, React, Django, API REST, WebSockets, Docker, Kubernetes, Bootstrap, Git and AWS (Lambda, Route53, S3, RDS and Beanstalk).",
         "highlights": [
           "Started the company"
@@ -47,7 +49,7 @@
       {
         "name": "Transport Casablanca S.A",
         "position": "Senior Full Stack Engineer, for project",
-        "url": "https://www.tcasablanca.cl/",
+        "url": "#",
         "startDate": "2023-07-01",
         "endDate": "2023-10-30",
         "summary": "In 2 months I developed CRM modules to manage leads and requirements from forms on the corporate website. I defined requirements with Product Owner and Sprint with Backlog and respecting deadlines. Technologies used: React, Ruby on Rails, Bootstrap, Git and AWS (Lambda, Route53, S3 y RDS).",
