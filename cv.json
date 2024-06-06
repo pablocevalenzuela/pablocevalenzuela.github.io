@@ -316,7 +316,14 @@
         ]
       },
       {
-        "name": "Ruby",
+        "name": "Python",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "AI, Google Colab, PyTorch, Python, Pandas, Jupyter, NumPy",
         "level": "Master",
         "keywords": [
           "Desarrollo Web", "Frontend", "Diseño Responsive"
@@ -330,7 +337,7 @@
         ]
       },
       {
-        "name": "Ruby On Rails",
+        "name": "Django",
         "level": "Avanzado",
         "keywords": [
           "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
