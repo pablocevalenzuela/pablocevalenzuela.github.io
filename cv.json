@@ -28,9 +28,32 @@
           "network": "GitHub",
           "username": "pablocevalenzuela",
           "url": "https://github.com/pablocevalenzuela"
+        },
+        {
+          "network": "Zoom",
+          "username": "pabloce-valenzuela",
+          "url": "https://calendly.com/pabloce-valenzuela/30min"
         }
       ]
     },
+    "freelanceServices": [
+      {
+        "title": "Tech Project Support",
+        "description": "Web App development, Agentic Systems (AI), features, integrations, and refactoring."
+      },
+      {
+        "title": "Fractional/Interim CTO",
+        "description": "Growing executive support."
+      },
+      {
+        "title": "Technology Roadmaps",
+        "description": "Development and implementation of 12–18 month technology roadmaps and trade-offs aligned with business metrics and OKRs."
+      },
+      {
+        "title": "Agile/PMI Project Management",
+        "description": "Planning, monitoring, and closure."
+      }
+    ],
     "work": [
       {
         "name": "Ecoinput - StartUp",

@@ -1,0 +1,46 @@
+---
+import Section from "../Section.astro"
+import { freelanceServices } from "@cv"
+---
+
+<Section title="Freelance Services">
+  <ul>
+    {
+      freelanceServices.map(({ title, description }) => {
+        return (
+          <li>
+            <article>
+              <header>
+                <h3>{title}</h3>
+              </header>
+              <footer>
+                <p>{description}</p>
+              </footer>
+            </article>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article h3 {
+    font-weight: 500;
+    color: #111;
+  }
+
+  article p {
+    color: #666;
+  }
+
+  header {
+    margin-bottom: 4px;
+  }
+</style>
