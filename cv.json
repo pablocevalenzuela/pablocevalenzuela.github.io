@@ -140,8 +140,8 @@
         "url": "#",
         "area": "Computer Engineer",
         "studyType": "Degree",
-        "startDate": "2010-01-01",
-        "endDate": "2015-12-31",
+        "startDate": null,
+        "endDate": null,
         "score": null,
         "courses": []
       },
@@ -150,8 +150,8 @@
         "url": "#",
         "area": "Computer Technician",
         "studyType": "Degree",
-        "startDate": "2008-01-01",
-        "endDate": "2010-12-31",
+        "startDate": null,
+        "endDate": null,
         "score": null,
         "courses": []
       },
