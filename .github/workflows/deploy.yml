@@ -22,11 +22,6 @@ jobs:
         uses: actions/checkout@v4
       - name: Install and build
         uses: withastro/action@v2
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: github-pages
-          path: ./dist
 
   deploy:
     needs: build
