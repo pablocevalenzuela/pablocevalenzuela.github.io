@@ -11,7 +11,7 @@ import { work } from "@cv"
         ({ name, startDate, endDate, position, summary, highlights, url }) => {
           const startYear = new Date(startDate).getFullYear()
           const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actual"
+            endDate != null ? new Date(endDate).getFullYear() : "to date"
           const years = `${startYear} - ${endYear}`
 
           return (
@@ -47,6 +47,10 @@ import { work } from "@cv"
     display: flex;
     flex-direction: column;
     gap: 32px;
+  }
+
+  p {
+    white-space: pre-line;
   }
 
   article h3 {

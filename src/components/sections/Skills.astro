@@ -1,15 +1,28 @@
 ---
 import Section from "../Section.astro"
-
 import { skills } from "@cv"
+
+const { hard, soft } = skills
 ---
 
-<Section title="Skills">
+<Section title="Hard Skills">
   <ul>
     {
-      skills.map(({ name }) => (
+      hard.map(({ name }) => (
         <li>
-          <span>{name}</span>
+          <span>● {name}</span>
+        </li>
+      ))
+    }
+  </ul>
+</Section>
+
+<Section title="Soft Skills">
+  <ul>
+    {
+      soft.map(({ name }) => (
+        <li>
+          <span>● {name}</span>
         </li>
       ))
     }
@@ -25,7 +38,7 @@ import { skills } from "@cv"
 
   li {
     border-radius: 6px;
-    background: #eee;
+    background: #fff;
     color: black;
     font-size: 0.8rem;
     font-weight: 500;
