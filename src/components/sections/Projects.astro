@@ -30,7 +30,7 @@ import { projects } from "@cv"
                       </a>
                     )}
                   </h3>
-                  <p>{description}</p>
+                  <p set:html={description.replace(/\n/g, '<br>')}></p>
                 </header>
                 <footer>
                   {highlights.map((highlight) => {

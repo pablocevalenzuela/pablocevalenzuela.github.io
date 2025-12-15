@@ -308,13 +308,14 @@
         "url": "https://www.asesor-digital.ecoinput.com/"
       },
       {
-        "name": "Job English abbreviations",
+        "name": "AI Agent for car insurance rates",
         "isActive": true,
-        "description": "Is a engine in Ruby that manager English words abbreviations and the save into a Hash.",
+        "description": "AI Agent can response your asks about car insurance and where this information, such as business rules, rates, and insurance coverage, is private and is typically managed using an Excel spreadsheet.",
         "highlights": [
           "More time to develop ideas and less time for bureaucracy"
         ],
-        "github": "https://github.com/pablocevalenzuela/job_english_abbreviations"
+        "url": "https://github.com/pablocevalenzuela/ai_agent_car_insurance_rates_v1_1",
+        "github": "https://github.com/pablocevalenzuela/ai_agent_car_insurance_rates_v1_1"
       }
     ]
   }
