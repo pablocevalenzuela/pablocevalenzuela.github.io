@@ -3,23 +3,26 @@ import Layout from "@/layouts/Layout.astro"
 
 import About from "@/components/sections/About.astro"
 import Education from "@/components/sections/Education.astro"
-import Service from "@/components/sections/Service.astro"
 import Experience from "@/components/sections/Experience.astro"
-import FreeHero from "@/components/sections/FreeHero.astro"
+import Hero from "@/components/sections/Hero.astro"
 import Projects from "@/components/sections/Projects.astro"
 import Skills from "@/components/sections/Skills.astro"
 import FreelanceServices from "@/components/sections/FreelanceServices.astro"
 import KeyboardManager from "@/components/KeyboardManager.astro"
 
-import { free_basics } from "@cv"
-const { name, label } = free_basics
+import { basics } from "@cv"
+const { name, label } = basics
 ---
 
 <Layout title={`${name} - ${label}`}>
   <main>
-    <FreeHero />
+    <Hero />
+    <FreelanceServices />
     <About />
-    <Service />
+    <Experience />
+    <Education />
+    <Skills />
+    <Projects />
   </main>
 
   <KeyboardManager />
