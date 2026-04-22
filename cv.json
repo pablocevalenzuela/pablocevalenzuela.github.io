@@ -1,152 +1,310 @@
 {
-    "basics": {
-      "name": "Pablo Valenzuela Cárcamo",
-      "label": "Software Engineer and AI & Tech Consultant freelance", 
-      "image": "/me.jpeg",
-      "email": "pabloce.valenzuela@gmail.com",
-      "phone": "+56 9 7925 0156",
-      "url": "#",
-      "summary": "Founder, CTO, Project Manager, and Software Engineer with 14+ years of experience delivering product-led\nplatforms, rapid MVPs (2–8 weeks), and alignment with OKRs, benchmarks, and organizational budgets.\n\nExtensive technical and executive experience leading projects, scaling agile teams, and managing portfolios (up to\n8 projects) using Scrum/PMI methodology, and leading AI agent proofs of concept (RAG/ReAct). Interested in CTO,\nDeputy Technology Manager, and Technology Project Manager roles.",
-      "location": {
-        "address": "",
-        "postalCode": "08820",
-        "city": "Santiago",
-        "countryCode": "CL",
-        "region": "Chile"
-      },
-      "languages": {
-          "spanish": "Spanish",
-          "english": "English"
-      },  
-      "profiles": [
-        {
-          "network": "LinkedIn",
-          "username": "pablo-valenzuela-carcamo",
-          "url": "https://www.linkedin.com/in/pablo-valenzuela-carcamo/"
-        },
-        {
-          "network": "GitHub",
-          "username": "pablocevalenzuela",
-          "url": "https://github.com/pablocevalenzuela"
-        },
-        {
-          "network": "Zoom",
-          "username": "pabloce-valenzuela",
-          "url": "https://calendly.com/pabloce-valenzuela/30min"
-        }
-      ]
+  "basics": {
+    "name": "Pablo Valenzuela Cárcamo",
+    "label": "Software Engineer and AI & Tech Consultant freelance",
+    "image": "/me.jpeg",
+    "email": "pabloce.valenzuela@gmail.com",
+    "phone": "+56 9 7925 0156",
+    "url": "#",
+    "summary": "Founder, CTO, Project Manager, and Software Engineer with 14+ years of experience delivering product-led\nplatforms, rapid MVPs (2–8 weeks), and alignment with OKRs, benchmarks, and organizational budgets.\n\nExtensive technical and executive experience leading projects, scaling agile teams, and managing portfolios (up to\n8 projects) using Scrum/PMI methodology, and leading AI agent proofs of concept (RAG/ReAct). Interested in CTO,\nDeputy Technology Manager, and Technology Project Manager roles.",
+    "location": {
+      "address": "",
+      "postalCode": "08820",
+      "city": "Santiago",
+      "countryCode": "CL",
+      "region": "Chile"
     },
-    "freelanceServices": [
+    "languages": {
+      "spanish": "Spanish",
+      "english": "English"
+    },
+    "profiles": [
       {
-        "title": "Tech Project Support",
-        "description": "Web App development, Agentic Systems (AI), features, integrations, and refactoring."
+        "network": "LinkedIn",
+        "username": "pablo-valenzuela-carcamo",
+        "url": "https://www.linkedin.com/in/pablo-valenzuela-carcamo/"
       },
       {
-        "title": "Fractional/Interim CTO",
-        "description": "Growing executive support."
+        "network": "GitHub",
+        "username": "pablocevalenzuela",
+        "url": "https://github.com/pablocevalenzuela"
       },
       {
-        "title": "Technology Roadmaps",
-        "description": "Development and implementation of 12–18 month technology roadmaps and trade-offs aligned with business metrics and OKRs."
-      },
-      {
-        "title": "Agile/PMI Project Management",
-        "description": "Planning, monitoring, and closure."
+        "network": "Zoom",
+        "username": "pabloce-valenzuela",
+        "url": "https://calendly.com/pabloce-valenzuela/30min"
       }
-    ],
-    "work": [
+    ]
+  },
+  "free_basics": {
+    "name": "Pablo Valenzuela Cárcamo",
+    "label": "Consultor senior en Informática, Cloud, IA y Eficiencia Operacional.\n Ingeniero con +14 años liderando proyectos tecnológicos",
+    "image": "/me.jpeg",
+    "email": "pabloce.valenzuela@gmail.com",
+    "phone": "+56 9 7925 0156",
+    "url": "#",
+    "summary": "Ayudo a empresas a reducir costos, acelerar entregas y automatizar procesos críticos con foco en el negocio. \n Más de 14 años liderando proyectos de software, informática, infraestructura y transformación digital en entornos exigentes y regulados como Banca, Instituciones Públicas y Multinacionales. He trabajado en iniciativas que reducen costos, mejoran SLA/OKR y aceleran la entrega de valor al negocio.",
+    "location": {
+      "address": "",
+      "postalCode": "08820",
+      "city": "Santiago",
+      "countryCode": "CL",
+      "region": "Chile"
+    },
+    "languages": {
+      "spanish": "Spanish",
+      "english": "English"
+    },
+    "profiles": [
       {
-        "name": "Ecoinput - StartUp",
-        "position": "AI Software Engineer, full-stack (PoC/MVP projects)",
-        "url": "#",
-        "startDate": "2025-09-01",
-        "endDate": null,
-        "summary": "● I developed a Proof of Concept (PoC) for a RAG Agent in one week using LangGraph and Hugging Face Inference. The agent responds without hallucinations, using Excel as a knowledge source.\n● I implemented agentic patterns (ReAct) and optimized serverless inference to reduce the cost per token and accelerate time to market (TTM).\n● I’m currently leading a PoC for automating requests and reminders via WhatsApp Business, evaluating trade-offs between LLMs and infrastructure.",
-        "highlights": []
+        "network": "LinkedIn",
+        "username": "pablo-valenzuela-carcamo",
+        "url": "https://www.linkedin.com/in/pablo-valenzuela-carcamo/"
       },
       {
-        "name": "Freelance Projects",
-        "position": "Senior full-stack Freelance Software Engineer (project)",
-        "url": "#",
-        "startDate": "2024-11-01",
-        "endDate": "2025-08-31",
-        "summary": "● Truekazo (3 months): I developed back-end, push (FCM), serviced systemd for Rpush, p95 performance < 410ms, CI/CD, testing, TTM reduction ≈55%.\n● BKL Trading Company (2 months): I developed a Shopify widget integrated with GraphQL that improved the online store's UX.\n● BKL Trading Company (in progress): Developing a back-office web app to support the management of book imports and publications across various digital channels, with Shopify and Bsale integrations.",
-        "highlights": []
+        "network": "GitHub",
+        "username": "pablocevalenzuela",
+        "url": "https://github.com/pablocevalenzuela"
       },
       {
-        "name": "Quantus - Water Earth",
-        "position": "Senior full-stack Freelance Software Engineer (project)",
-        "url": "#",
-        "startDate": "2024-06-01",
-        "endDate": "2024-09-30",
-        "summary": "● I developed an MVP SaaS and API in 8 weeks, implemented CI/CD and automated testing that reduced time to market (TTM) per feature by approximately 35%. \n● I designed background job architecture (Celery/Redis) and optimized performance, achieving p95 < 345ms / p99 < 0.6s, improving UX and SLAs.\n● I advised on tech stack trade-offs and prepared TCO estimates to optimize budget and scalability.",
-        "highlights": []
-      },
-      {
-        "name": "EHAC Group S.A.",
-        "position": "Senior full-stack Freelance Software Engineer (project)",
-        "url": "#",
-        "startDate": "2023-10-01",
-        "endDate": "2024-04-30",
-        "summary": "● I developed a custom ERP in 7 months and deployed it on GCP with Cloud Run and autoscaling; CI/CD pipelines reduced errors and costs by ~60%.\n● I improved TTM by approximately 45% and performance (p95 ≈420ms, p99 ≈600ms) with background jobs and tuning, reducing maintenance SLAs from 4 to 1 hour.\n● I led the on-premises to cloud migration consulting, including TCO estimations and operational risk mitigation.",
-        "highlights": []
-      },
-      {
-        "name": "Casablanca Transport S.A.",
-        "position": "Senior full-stack Software Engineer (project)",
-        "url": "#",
-        "startDate": "2023-08-01",
-        "endDate": "2023-09-30",
-        "summary": "● I developed a CRM in 8 weeks that automated quote management and reduced request SLAs by approximately 65%, improving customer service and conversion rates.\n● I managed backlogs and sprints with Product Owners (Scrum/PMI) and prepared an AWS quote and migration recommendation to optimize Total Cost of Ownership (TCO).",
-        "highlights": []
-      },
-      {
-        "name": "Ecoinput - StartUp",
-        "position": "Founder, CTO, Senior Full-Stack Software Engineer",
-        "url": "#",
-        "startDate": "2019-11-01",
-        "endDate": "2023-10-31",
-        "summary": "● I founded and designed the startup's business model in 6 months.\n● I launched the first MVP to production in 3 months, defining the backlog, tech stack, and roadmap. The MVP reduced customer service SLAs by approximately 45% and decreased operating costs.\n● I built and led an agile team of 5 people in 2 months, implementing CI/CD and a delivery cadence aligned with OKRs.\n● I negotiated and closed commercial partnerships (Klaviyo & Shopify Chile) that enabled integration channels and go-to-market strategies for e-commerce clients.",
-        "highlights": []
-      },
-      {
-        "name": "Ripley Bank",
-        "position": "Project Manager in Innovation Management (Scrum Master)",
-        "url": "#",
-        "startDate": "2017-08-01",
-        "endDate": "2019-09-30",
-        "summary": "● I built an agile team in 3 months and managed a portfolio of 8 concurrent projects (credit, insurance, back-office), applying PMI/Scrum to optimize CAPEX, aligned with the PO's OKRs, and mitigate risks.\n● I designed the program roadmap and critical path, improving visibility for stakeholders and predictability of deliveries.",
-        "highlights": []
-      },
-      {
-        "name": "Tessi Group, France",
-        "position": "Project Manager (Scrum Master)",
-        "url": "#",
-        "startDate": "2017-02-01",
-        "endDate": "2017-06-30",
-        "summary": "● I built a team of 7 professionals in 2 months for core banking BPO (BBVA Colombia), reducing lead time by approximately 41% through coaching and process improvements.\n● I implemented PMI governance and Scrum (WBS, SGSR) to align deliverables with the client's OKRs.",
-        "highlights": []
-      },
-      {
-        "name": "SBIF, now CMF",
-        "position": "Software Engineer (Kibernum outsourcing project)",
-        "url": "#",
-        "startDate": "2016-04-01",
-        "endDate": "2016-12-31",
-        "summary": "● I developed new components and pipeline automation (GitHub Actions) → Lead Time -50%; I managed 3 digital projects for the intranet.",
-        "highlights": []
-      },
-      {
-        "name": "DIPRES, Chile",
-        "position": "Software Engineer (Kibernum outsourcing project)",
-        "url": "#",
-        "startDate": "2015-08-01",
-        "endDate": "2016-03-31",
-        "summary": "● I developed and resolved bugs, features, and also testing for SIGFE, JEE, Oracle stored procedures for reporting modules, deliveries aligned with QA and government standards.",
-        "highlights": []
+        "network": "Zoom",
+        "username": "pabloce-valenzuela",
+        "url": "https://calendly.com/pabloce-valenzuela/30min"
       }
-    ],
-    "volunteer": [{
+    ]
+  },
+  "cta_one": {
+    "name": "Agendar una reunión de 30 min",
+    "url": "https://calendly.com/pabloce-valenzuela/30min"
+  },
+  "freelanceServices": [
+    {
+      "title": "Tech Project Support",
+      "description": "Web App development, Agentic Systems (AI), features, integrations, and refactoring."
+    },
+    {
+      "title": "Fractional/Interim CTO",
+      "description": "Growing executive support."
+    },
+    {
+      "title": "Technology Roadmaps",
+      "description": "Development and implementation of 12–18 month technology roadmaps and trade-offs aligned with business metrics and OKRs."
+    },
+    {
+      "title": "Agile/PMI Project Management",
+      "description": "Planning, monitoring, and closure."
+    }
+  ],
+  "results": [
+    {
+      "desc": "● Reducción de costos operativos cercanos al 60%"
+    },
+    {
+      "desc": "● Disminución del lead time en cerca de 50% con CI/CD y mejora de procesos"
+    },
+    {
+      "desc": "● Mejora de disponibilidad, SLA y estabilidad operacional"
+    },
+    {
+      "desc": "● Liderazgo de equipos y portafolios multi-proyecto"
+    }
+  ],
+  "problems": [
+    {
+      "desc": "● Costos altos en infraestructura y operación"
+    },
+    {
+      "desc": "● Entregas lentas o inestables"
+    },
+    {
+      "desc": "● Procesos manuales que consumen tiempo"
+    },
+    {
+      "desc": "● Falta de alineación entre tecnología y negocio"
+    },
+    {
+      "desc": "● Necesidad de introducir IA sin improvisación"
+    }
+  ],
+  "services": [
+    {
+      "title": "Consultoría CTO fraccional",
+      "desc": "Roadmap, priorización, arquitectura, equipo, métricas y gobierno."
+    },
+    {
+      "title": "Consultoría tecnológica estratégica",
+      "desc": "Alta capacidad de análisis sistémico del negocio para resolver con tecnología."
+    },
+    {
+      "title": "Transformación cloud y DevOps",
+      "desc": "Migración, CI/CD, observabilidad, automatización y reducción de TCO."
+    },
+    {
+      "title": "Automatización e IA aplicada",
+      "desc": "RAG, Agentes de IA, flujos operativos y asistencia inteligente."
+    },
+    {
+      "title": "Auditoría técnica y operacional",
+      "desc": "Diagnóstico de cuellos de botella, riesgos y oportunidades de mejora."
+    }
+  ],
+  "how_to_work": [
+    {
+      "title": "1. Diagnóstico inicial",
+      "desc": "Entiendo tu contexto, problemas y objetivos."
+    },
+    {
+      "title": "2. Identificación de oportunidades",
+      "desc": "Detecto dónde está el mayor impacto en costo, velocidad y eficiencia."
+    },
+    {
+      "title": "3. Diseño de solución",
+      "desc": "Defino arquitectura, estrategia, cronograma y plan de ejecución."
+    },
+    {
+      "title": "4. Implementación priorizada",
+      "desc": "Ejecuto con foco en resultados rápidos y medibles."
+    },
+    {
+      "title": "5. Medición y mejora continua",
+      "desc": "Ajusto en base a métricas reales del negocio."
+    }
+  ],
+  "exits": [
+    {
+      "problem": "El cliente Librería Bookland tardaba +4 horas en publicar sus productos importados para la venta en su Tienda Online.",
+      "solution": "● Diseñé, desarrollé e implementé en 2 meses una solución cloud-native y que fue una Aplicación Web de Back-Office.",
+      "goal": "● Se redujo en un 56% el SLA de publicación de artículos importados en canal online, aumentó AOV y se redujo carga laboral en un 60%."
+    },
+    {
+      "problem": "El cliente Quantus - Agua Tierra necesitaba lanzar su MVP y API en un deadline ajustado para lograr levantar inversión.",
+      "solution": "● Diseñe, desarrollé e implementé el MVP y API en 8 semanas, implementé pipeline CI/CD y testing automatizado en GCP.",
+      "goal": "● Optimicé rendimiento logrando p95 < 345ms / p99 < 0.6s, mejorando UX y SLA, asesoré en trade-offs de tech stack y elaboré estimaciones de TCO para optimizar presupuesto y escalabilidad en caso de alta demanda operacional durante lanzamiento MVP."
+    },
+    {
+      "problem": "El cliente EHAC Group S.A. necesitaba un sistema que soportara la operación de ODT diaria para mejorar SLA y optimizar costos.",
+      "solution": "● Diseñé, desarrollé e implementé un ERP end-to-end en 7 meses y desplegué solución en GCP, autoscaling y pipelines CI/CD.",
+      "goal": "● Mejoré TTM en ~45% y rendimiento (p95 ≈420ms, p99 ≈600ms) con jobs en background y tuning, reduje SLA de mantenimiento de 4 a 1 HH."
+    }
+  ],
+  "final_cta": {
+    "name": "Agendar una reunión de 30 min",
+    "url": "https://calendly.com/pabloce-valenzuela/30min"
+  },
+  "free_serv": [
+    {
+      "name": "Consultoría en Proyectos de IA(Inteligencia Artificial)",
+      "position": "Para: Automatización de operaciones, Copilot y Predicciones.",
+      "url": "#",
+      "startDate": "",
+      "endDate": null,
+      "summary": "● Definición de un Roadmap para la adopción de IA en la organización.\n● Auditoría previa del negocio...\n● Diseño, Desarrollo e implementación de soluciones Agénticas de IA.",
+      "highlights": []
+    },
+    {
+      "name": "Consultoría en Proyectos de Desarrollo de Software",
+      "position": "Para: Automatización de operaciones, Copilot y Predicciones.",
+      "url": "#",
+      "startDate": "",
+      "endDate": null,
+      "summary": "● Definición de un Roadmap para la adopción de IA en la organización.\n● Auditoría previa del negocio...\n● Diseño, Desarrollo e implementación de soluciones Agénticas de IA.",
+      "highlights": []
+    }
+  ],
+  "work": [
+    {
+      "name": "Ecoinput - StartUp",
+      "position": "AI Software Engineer, full-stack (PoC/MVP projects)",
+      "url": "#",
+      "startDate": "2025-09-01",
+      "endDate": null,
+      "summary": "● I developed a Proof of Concept (PoC) for a RAG Agent in one week using LangGraph and Hugging Face Inference. The agent responds without hallucinations, using Excel as a knowledge source.\n● I implemented agentic patterns (ReAct) and optimized serverless inference to reduce the cost per token and accelerate time to market (TTM).\n● I’m currently leading a PoC for automating requests and reminders via WhatsApp Business, evaluating trade-offs between LLMs and infrastructure.",
+      "highlights": []
+    },
+    {
+      "name": "Freelance Projects",
+      "position": "Senior full-stack Freelance Software Engineer (project)",
+      "url": "#",
+      "startDate": "2024-11-01",
+      "endDate": "2025-08-31",
+      "summary": "● Truekazo (3 months): I developed back-end, push (FCM), serviced systemd for Rpush, p95 performance < 410ms, CI/CD, testing, TTM reduction ≈55%.\n● BKL Trading Company (2 months): I developed a Shopify widget integrated with GraphQL that improved the online store's UX.\n● BKL Trading Company (in progress): Developing a back-office web app to support the management of book imports and publications across various digital channels, with Shopify and Bsale integrations.",
+      "highlights": []
+    },
+    {
+      "name": "Quantus - Water Earth",
+      "position": "Senior full-stack Freelance Software Engineer (project)",
+      "url": "#",
+      "startDate": "2024-06-01",
+      "endDate": "2024-09-30",
+      "summary": "● I developed an MVP SaaS and API in 8 weeks, implemented CI/CD and automated testing that reduced time to market (TTM) per feature by approximately 35%. \n● I designed background job architecture (Celery/Redis) and optimized performance, achieving p95 < 345ms / p99 < 0.6s, improving UX and SLAs.\n● I advised on tech stack trade-offs and prepared TCO estimates to optimize budget and scalability.",
+      "highlights": []
+    },
+    {
+      "name": "EHAC Group S.A.",
+      "position": "Senior full-stack Freelance Software Engineer (project)",
+      "url": "#",
+      "startDate": "2023-10-01",
+      "endDate": "2024-04-30",
+      "summary": "● I developed a custom ERP in 7 months and deployed it on GCP with Cloud Run and autoscaling; CI/CD pipelines reduced errors and costs by ~60%.\n● I improved TTM by approximately 45% and performance (p95 ≈420ms, p99 ≈600ms) with background jobs and tuning, reducing maintenance SLAs from 4 to 1 hour.\n● I led the on-premises to cloud migration consulting, including TCO estimations and operational risk mitigation.",
+      "highlights": []
+    },
+    {
+      "name": "Casablanca Transport S.A.",
+      "position": "Senior full-stack Software Engineer (project)",
+      "url": "#",
+      "startDate": "2023-08-01",
+      "endDate": "2023-09-30",
+      "summary": "● I developed a CRM in 8 weeks that automated quote management and reduced request SLAs by approximately 65%, improving customer service and conversion rates.\n● I managed backlogs and sprints with Product Owners (Scrum/PMI) and prepared an AWS quote and migration recommendation to optimize Total Cost of Ownership (TCO).",
+      "highlights": []
+    },
+    {
+      "name": "Ecoinput - StartUp",
+      "position": "Founder, CTO, Senior Full-Stack Software Engineer",
+      "url": "#",
+      "startDate": "2019-11-01",
+      "endDate": "2023-10-31",
+      "summary": "● I founded and designed the startup's business model in 6 months.\n● I launched the first MVP to production in 3 months, defining the backlog, tech stack, and roadmap. The MVP reduced customer service SLAs by approximately 45% and decreased operating costs.\n● I built and led an agile team of 5 people in 2 months, implementing CI/CD and a delivery cadence aligned with OKRs.\n● I negotiated and closed commercial partnerships (Klaviyo & Shopify Chile) that enabled integration channels and go-to-market strategies for e-commerce clients.",
+      "highlights": []
+    },
+    {
+      "name": "Ripley Bank",
+      "position": "Project Manager in Innovation Management (Scrum Master)",
+      "url": "#",
+      "startDate": "2017-08-01",
+      "endDate": "2019-09-30",
+      "summary": "● I built an agile team in 3 months and managed a portfolio of 8 concurrent projects (credit, insurance, back-office), applying PMI/Scrum to optimize CAPEX, aligned with the PO's OKRs, and mitigate risks.\n● I designed the program roadmap and critical path, improving visibility for stakeholders and predictability of deliveries.",
+      "highlights": []
+    },
+    {
+      "name": "Tessi Group, France",
+      "position": "Project Manager (Scrum Master)",
+      "url": "#",
+      "startDate": "2017-02-01",
+      "endDate": "2017-06-30",
+      "summary": "● I built a team of 7 professionals in 2 months for core banking BPO (BBVA Colombia), reducing lead time by approximately 41% through coaching and process improvements.\n● I implemented PMI governance and Scrum (WBS, SGSR) to align deliverables with the client's OKRs.",
+      "highlights": []
+    },
+    {
+      "name": "SBIF, now CMF",
+      "position": "Software Engineer (Kibernum outsourcing project)",
+      "url": "#",
+      "startDate": "2016-04-01",
+      "endDate": "2016-12-31",
+      "summary": "● I developed new components and pipeline automation (GitHub Actions) → Lead Time -50%; I managed 3 digital projects for the intranet.",
+      "highlights": []
+    },
+    {
+      "name": "DIPRES, Chile",
+      "position": "Software Engineer (Kibernum outsourcing project)",
+      "url": "#",
+      "startDate": "2015-08-01",
+      "endDate": "2016-03-31",
+      "summary": "● I developed and resolved bugs, features, and also testing for SIGFE, JEE, Oracle stored procedures for reporting modules, deliveries aligned with QA and government standards.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
       "organization": "Organization",
       "position": "Volunteer",
       "url": "https://organization.com/",
@@ -156,166 +314,199 @@
       "highlights": [
         "Awarded 'Volunteer of the Month'"
       ]
-    }],
-    "education": [
-      {
-        "institution": "AIEP / Andrés Bello University",
-        "url": "#",
-        "area": "Computer Engineer",
-        "studyType": "Degree",
-        "startDate": null,
-        "endDate": null,
-        "score": null,
-        "courses": []
-      },
-      {
-        "institution": "Santo Tomás Institute",
-        "url": "#",
-        "area": "Computer Technician",
-        "studyType": "Degree",
-        "startDate": null,
-        "endDate": null,
-        "score": null,
-        "courses": []
-      },
-      {
-        "institution": "Pontifical Catholic University of Chile (PUC Chile)",
-        "url": "#",
-        "area": "Project Management (PMI framework)",
-        "studyType": "Diploma",
-        "startDate": null,
-        "endDate": null,
-        "score": null,
-        "courses": []
-      },
-      {
-        "institution": "Google & EOI",
-        "url": "#",
-        "area": "Cloud Computing",
-        "studyType": "Diploma",
-        "startDate": null,
-        "endDate": null,
-        "score": null,
-        "courses": []
-      },
-      {
-        "institution": "Stanford University and DeepLearning.ai",
-        "url": "#",
-        "area": "AI & Deep Learning",
-        "studyType": "Specialization",
-        "startDate": null,
-        "endDate": null,
-        "score": null,
-        "courses": []
-      },
-      {
-        "institution": "Hugging Face",
-        "url": "#",
-        "area": "AI Agents Fundamentals",
-        "studyType": "Certification",
-        "startDate": null,
-        "endDate": null,
-        "score": null,
-        "courses": []
-      },
-      {
-        "institution": "Cambridge",
-        "url": "#",
-        "area": "PET (B2) English (in progress)",
-        "studyType": "Certification",
-        "startDate": null,
-        "endDate": null,
-        "score": null,
-        "courses": []
-      },
-      {
-        "institution": "PUC Chile",
-        "url": "#",
-        "area": "Digital Products and Innovation in IT",
-        "studyType": "Seminar",
-        "startDate": null,
-        "endDate": null,
-        "score": null,
-        "courses": []
-      }
-    ],
-    "awards": [{
+    }
+  ],
+  "education": [
+    {
+      "institution": "AIEP / Andrés Bello University",
+      "url": "#",
+      "area": "Computer Engineer",
+      "studyType": "Degree",
+      "startDate": null,
+      "endDate": null,
+      "score": null,
+      "courses": []
+    },
+    {
+      "institution": "Santo Tomás Institute",
+      "url": "#",
+      "area": "Computer Technician",
+      "studyType": "Degree",
+      "startDate": null,
+      "endDate": null,
+      "score": null,
+      "courses": []
+    },
+    {
+      "institution": "Pontifical Catholic University of Chile (PUC Chile)",
+      "url": "#",
+      "area": "Project Management (PMI framework)",
+      "studyType": "Diploma",
+      "startDate": null,
+      "endDate": null,
+      "score": null,
+      "courses": []
+    },
+    {
+      "institution": "Google & EOI",
+      "url": "#",
+      "area": "Cloud Computing",
+      "studyType": "Diploma",
+      "startDate": null,
+      "endDate": null,
+      "score": null,
+      "courses": []
+    },
+    {
+      "institution": "Stanford University and DeepLearning.ai",
+      "url": "#",
+      "area": "AI & Deep Learning",
+      "studyType": "Specialization",
+      "startDate": null,
+      "endDate": null,
+      "score": null,
+      "courses": []
+    },
+    {
+      "institution": "Hugging Face",
+      "url": "#",
+      "area": "AI Agents Fundamentals",
+      "studyType": "Certification",
+      "startDate": null,
+      "endDate": null,
+      "score": null,
+      "courses": []
+    },
+    {
+      "institution": "Cambridge",
+      "url": "#",
+      "area": "PET (B2) English (in progress)",
+      "studyType": "Certification",
+      "startDate": null,
+      "endDate": null,
+      "score": null,
+      "courses": []
+    },
+    {
+      "institution": "PUC Chile",
+      "url": "#",
+      "area": "Digital Products and Innovation in IT",
+      "studyType": "Seminar",
+      "startDate": null,
+      "endDate": null,
+      "score": null,
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
       "title": "Award",
       "date": "2014-11-01",
       "awarder": "Company",
       "summary": "There is no spoon."
-    }],
-    "certificates": [{
+    }
+  ],
+  "certificates": [
+    {
       "name": "Certificate",
       "date": "2021-11-07",
       "issuer": "Company",
       "url": "https://certificate.com"
-    }],
-    "publications": [{
+    }
+  ],
+  "publications": [
+    {
       "name": "Publication",
       "publisher": "Company",
       "releaseDate": "2014-10-01",
       "url": "https://publication.com",
       "summary": "Description…"
-    }],
-    "skills": {
-      "hard": [
-        {"name": "Product & Delivery: Design Thinking, Lean Startup, MVP, BPM, TCO/TTM, SLA management."},
-        {"name": "Programming & Frameworks: Python, Java EE, JavaScript/TypeScript, Django, React, Spring Boot, Node.js."},
-        {"name": "Cloud & Infrastructure: GCP, AWS, FCM, DigitalOcean, CloudRun, Docker, Kubernetes, IaC."},
-        {"name": "AI/Data: ML/Deep Learning Fundamentals, LangGraph, Hugging Face, TensorFlow, PyTorch, Pandas, NumPy, RAG/React."},
-        {"name": "DevOps & Observability: CI/CD (GitHub Actions, CodeBuild, Jenkins), EKS, ECR, systemd, unit testing, coverage, p95/p99 monitoring."},
-        {"name": "Databases: PostgreSQL, MySQL, Oracle, MongoDB, Redis."},
-        {"name": "Tools & Management: Jira, Confluence, Slack, Git/GitHub."},
-        {"name": "Practices & Principles: SOLID, DDD, OOP, REST APIs, Web Vitals, Basic OWASP, KISS."}  
-      ],
-      "soft": [
-        {"name": "Leadership & Management: Delta Model (MLD), Scrum, PMI, OKR-driven delivery, roadmap and portfolio management."},
-        {"name": "Personal Skills: Optimistic, proactive, strong analytical skills, self-motivated, collaborative, loyal, effective communicator, studious, and an avid reader."},
-        {"name": "Weaknesses: Over-focused on details, which could lead to delays and mild frustration when the outcome differs from the plan."}  
-      ]
-    },
-    "languages": [
+    }
+  ],
+  "skills": {
+    "hard": [
       {
-        "language": "Spanish",
-        "fluency": "Native speaker"
+        "name": "Product & Delivery: Design Thinking, Lean Startup, MVP, BPM, TCO/TTM, SLA management."
       },
       {
-        "language": "English",
-        "fluency": "Advanced"
+        "name": "Programming & Frameworks: Python, Java EE, JavaScript/TypeScript, Django, React, Spring Boot, Node.js."
+      },
+      {
+        "name": "Cloud & Infrastructure: GCP, AWS, FCM, DigitalOcean, CloudRun, Docker, Kubernetes, IaC."
+      },
+      {
+        "name": "AI/Data: ML/Deep Learning Fundamentals, LangGraph, Hugging Face, TensorFlow, PyTorch, Pandas, NumPy, RAG/React."
+      },
+      {
+        "name": "DevOps & Observability: CI/CD (GitHub Actions, CodeBuild, Jenkins), EKS, ECR, systemd, unit testing, coverage, p95/p99 monitoring."
+      },
+      {
+        "name": "Databases: PostgreSQL, MySQL, Oracle, MongoDB, Redis."
+      },
+      {
+        "name": "Tools & Management: Jira, Confluence, Slack, Git/GitHub."
+      },
+      {
+        "name": "Practices & Principles: SOLID, DDD, OOP, REST APIs, Web Vitals, Basic OWASP, KISS."
       }
     ],
-    "interests": [{
+    "soft": [
+      {
+        "name": "Leadership & Management: Delta Model (MLD), Scrum, PMI, OKR-driven delivery, roadmap and portfolio management."
+      },
+      {
+        "name": "Personal Skills: Optimistic, proactive, strong analytical skills, self-motivated, collaborative, loyal, effective communicator, studious, and an avid reader."
+      },
+      {
+        "name": "Weaknesses: Over-focused on details, which could lead to delays and mild frustration when the outcome differs from the plan."
+      }
+    ]
+  },
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
       "name": "Wildlife",
       "keywords": [
         "Ferrets",
         "Unicorns"
       ]
-    }],
-    "references": [{
+    }
+  ],
+  "references": [
+    {
       "name": "Jane Doe",
       "reference": "Reference…"
-    }],
-    "projects": [
-      {
-        "name": "Digital services quote advisor",
-        "isActive": true,
-        "description": "I developed for Ecoinput.com a virtual advisor that guides the prospect with a question-answer to choose the digital service that best suits their needs.",
-        "highlights": [
-          "achieved more sales",
-          "reduced bounce rate"
-        ],
-        "url": "https://www.asesor-digital.ecoinput.com/"
-      },
-      {
-        "name": "AI Agent for car insurance rates",
-        "isActive": true,
-        "description": "AI Agent can response your asks about car insurance and where this information, such as business rules, rates, and insurance coverage, is private and is typically managed using an Excel spreadsheet.",
-        "highlights": [
-          "More time to develop ideas and less time for bureaucracy"
-        ],
-        "url": "https://github.com/pablocevalenzuela/ai_agent_car_insurance_rates_v1_1",
-        "github": "https://github.com/pablocevalenzuela/ai_agent_car_insurance_rates_v1_1"
-      }
-    ]
-  }
+    }
+  ],
+  "projects": [
+    {
+      "name": "Digital services quote advisor",
+      "isActive": true,
+      "description": "I developed for Ecoinput.com a virtual advisor that guides the prospect with a question-answer to choose the digital service that best suits their needs.",
+      "highlights": [
+        "achieved more sales",
+        "reduced bounce rate"
+      ],
+      "url": "https://www.asesor-digital.ecoinput.com/"
+    },
+    {
+      "name": "AI Agent for car insurance rates",
+      "isActive": true,
+      "description": "AI Agent can response your asks about car insurance and where this information, such as business rules, rates, and insurance coverage, is private and is typically managed using an Excel spreadsheet.",
+      "highlights": [
+        "More time to develop ideas and less time for bureaucracy"
+      ],
+      "url": "https://github.com/pablocevalenzuela/ai_agent_car_insurance_rates_v1_1",
+      "github": "https://github.com/pablocevalenzuela/ai_agent_car_insurance_rates_v1_1"
+    }
+  ]
+}
