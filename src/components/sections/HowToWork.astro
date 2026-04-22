@@ -1,0 +1,70 @@
+---
+import Section from "../Section.astro"
+
+import { how_to_work } from "@cv"
+---
+
+<Section title="Cómo trabajo">
+  <ul>
+    {
+      how_to_work.map(({ title, desc }) => {
+        return (
+          <li>
+            <article>
+              <header>
+                <h4>{title}</h4>
+              </header>
+              <footer>
+                <p>{desc}</p>
+              </footer>
+            </article>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  .cta-minimal {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    color: #111; /* Color de texto oscuro */
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    border: 1px solid #e2e2e2; /* Borde suave */
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    background-color: transparent;
+  }
+
+  .cta-minimal:hover {
+    background-color: #f5f5f5;
+    border-color: #111;
+    transform: translateY(-1px); /* Efecto sutil de elevación */
+  }
+
+  /* Animación para la flecha al hacer hover */
+  .cta-minimal svg {
+    transition: transform 0.2s ease;
+  }
+
+  .cta-minimal:hover svg {
+    transform: translateX(4px);
+  }
+
+  /* Si tu sitio tiene modo oscuro, puedes añadir esto: */
+  @media (prefers-color-scheme: dark) {
+    .cta-minimal {
+      color: #eee;
+      border-color: #333;
+    }
+    .cta-minimal:hover {
+      background-color: #222;
+      border-color: #eee;
+    }
+  }
+</style>

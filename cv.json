@@ -38,12 +38,12 @@
   },
   "free_basics": {
     "name": "Pablo Valenzuela Cárcamo",
-    "label": "Consultor senior en Cloud, IA y Eficiencia Operacional",
+    "label": "Consultor senior en Informática, Cloud, IA y Eficiencia Operacional.\n Ingeniero con +14 años liderando proyectos tecnológicos",
     "image": "/me.jpeg",
     "email": "pabloce.valenzuela@gmail.com",
     "phone": "+56 9 7925 0156",
     "url": "#",
-    "summary": "Más de 14 años liderando proyectos de software, infraestructura y transformación digital en entornos exigentes. He trabajado en iniciativas que reducen costos, mejoran SLA y aceleran la entrega de valor al negocio.",
+    "summary": "Ayudo a empresas a reducir costos, acelerar entregas y automatizar procesos críticos con foco en el negocio. \n Más de 14 años liderando proyectos de software, informática, infraestructura y transformación digital en entornos exigentes y regulados como Banca, Instituciones Públicas y Multinacionales. He trabajado en iniciativas que reducen costos, mejoran SLA/OKR y aceleran la entrega de valor al negocio.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -73,6 +73,10 @@
       }
     ]
   },
+  "cta_one": {
+    "name": "Agendar una reunión de 30 min",
+    "url": "https://calendly.com/pabloce-valenzuela/30min"
+  },
   "freelanceServices": [
     {
       "title": "Tech Project Support",
@@ -91,6 +95,102 @@
       "description": "Planning, monitoring, and closure."
     }
   ],
+  "results": [
+    {
+      "desc": "● Reducción de costos operativos cercanos al 60%"
+    },
+    {
+      "desc": "● Disminución del lead time en cerca de 50% con CI/CD y mejora de procesos"
+    },
+    {
+      "desc": "● Mejora de disponibilidad, SLA y estabilidad operacional"
+    },
+    {
+      "desc": "● Liderazgo de equipos y portafolios multi-proyecto"
+    }
+  ],
+  "problems": [
+    {
+      "desc": "● Costos altos en infraestructura y operación"
+    },
+    {
+      "desc": "● Entregas lentas o inestables"
+    },
+    {
+      "desc": "● Procesos manuales que consumen tiempo"
+    },
+    {
+      "desc": "● Falta de alineación entre tecnología y negocio"
+    },
+    {
+      "desc": "● Necesidad de introducir IA sin improvisación"
+    }
+  ],
+  "services": [
+    {
+      "title": "Consultoría CTO fraccional",
+      "desc": "Roadmap, priorización, arquitectura, equipo, métricas y gobierno."
+    },
+    {
+      "title": "Consultoría tecnológica estratégica",
+      "desc": "Alta capacidad de análisis sistémico del negocio para resolver con tecnología."
+    },
+    {
+      "title": "Transformación cloud y DevOps",
+      "desc": "Migración, CI/CD, observabilidad, automatización y reducción de TCO."
+    },
+    {
+      "title": "Automatización e IA aplicada",
+      "desc": "RAG, Agentes de IA, flujos operativos y asistencia inteligente."
+    },
+    {
+      "title": "Auditoría técnica y operacional",
+      "desc": "Diagnóstico de cuellos de botella, riesgos y oportunidades de mejora."
+    }
+  ],
+  "how_to_work": [
+    {
+      "title": "1. Diagnóstico inicial",
+      "desc": "Entiendo tu contexto, problemas y objetivos."
+    },
+    {
+      "title": "2. Identificación de oportunidades",
+      "desc": "Detecto dónde está el mayor impacto en costo, velocidad y eficiencia."
+    },
+    {
+      "title": "3. Diseño de solución",
+      "desc": "Defino arquitectura, estrategia, cronograma y plan de ejecución."
+    },
+    {
+      "title": "4. Implementación priorizada",
+      "desc": "Ejecuto con foco en resultados rápidos y medibles."
+    },
+    {
+      "title": "5. Medición y mejora continua",
+      "desc": "Ajusto en base a métricas reales del negocio."
+    }
+  ],
+  "exits": [
+    {
+      "problem": "El cliente Librería Bookland tardaba +4 horas en publicar sus productos importados para la venta en su Tienda Online.",
+      "solution": "● Diseñé, desarrollé e implementé en 2 meses una solución cloud-native y que fue una Aplicación Web de Back-Office.",
+      "goal": "● Se redujo en un 56% el SLA de publicación de artículos importados en canal online, aumentó AOV y se redujo carga laboral en un 60%."
+    },
+    {
+      "problem": "El cliente Quantus - Agua Tierra necesitaba lanzar su MVP y API en un deadline ajustado para lograr levantar inversión.",
+      "solution": "● Diseñe, desarrollé e implementé el MVP y API en 8 semanas, implementé pipeline CI/CD y testing automatizado en GCP.",
+      "goal": "● Optimicé rendimiento logrando p95 < 345ms / p99 < 0.6s, mejorando UX y SLA, asesoré en trade-offs de tech stack y elaboré estimaciones de TCO para optimizar presupuesto y escalabilidad en caso de alta demanda operacional durante lanzamiento MVP."
+    },
+    {
+      "problem": "El cliente EHAC Group S.A. necesitaba un sistema que soportara la operación de ODT diaria para mejorar SLA y optimizar costos.",
+      "solution": "● Diseñé, desarrollé e implementé un ERP end-to-end en 7 meses y desplegué solución en GCP, autoscaling y pipelines CI/CD.",
+      "goal": "● Mejoré TTM en ~45% y rendimiento (p95 ≈420ms, p99 ≈600ms) con jobs en background y tuning, reduje SLA de mantenimiento de 4 a 1 HH."
+    }
+  ],
+  "final_cta": {
+    "name": "Agendar una reunión de 30 min",
+    "url": "https://calendly.com/pabloce-valenzuela/30min"
+  },
   "free_serv": [
     {
       "name": "Consultoría en Proyectos de IA(Inteligencia Artificial)",
