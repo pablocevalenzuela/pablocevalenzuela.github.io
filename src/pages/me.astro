@@ -2,11 +2,14 @@
 import Layout from "@/layouts/Layout.astro"
 
 import About from "@/components/sections/About.astro"
+import Certifications from "@/components/sections/Certifications.astro"
 import Education from "@/components/sections/Education.astro"
+import ExecutiveSkills from "@/components/sections/ExecutiveSkills.astro"
 import Experience from "@/components/sections/Experience.astro"
 import Hero from "@/components/sections/Hero.astro"
-import Projects from "@/components/sections/Projects.astro"
-import Skills from "@/components/sections/Skills.astro"
+import Languages from "@/components/sections/Languages.astro"
+import NotableAchievements from "@/components/sections/NotableAchievements.astro"
+import TechnologiesStandards from "@/components/sections/TechnologiesStandards.astro"
 import KeyboardManager from "@/components/KeyboardManager.astro"
 
 import { basics } from "@cv"
@@ -17,10 +20,13 @@ const { name, label } = basics
   <main>
     <Hero />
     <About />
+    <NotableAchievements />
+    <ExecutiveSkills />
     <Experience />
     <Education />
-    <Skills />
-    <Projects />
+    <TechnologiesStandards />
+    <Certifications />
+    <Languages />
   </main>
 
   <KeyboardManager />
