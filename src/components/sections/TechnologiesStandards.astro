@@ -1,0 +1,35 @@
+---
+import Section from "../Section.astro"
+import { skills } from "@cv"
+
+const { hard } = skills
+---
+
+<Section title="Technologies and Standards">
+  <ul>
+    {
+      hard.map(({ name }) => (
+        <li>
+          <span>● {name}</span>
+        </li>
+      ))
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: inline-flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  li {
+    border-radius: 6px;
+    background: #fff;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+  }
+</style>

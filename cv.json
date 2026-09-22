@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Pablo Valenzuela Cárcamo",
-    "label": "Software Engineer and AI & Tech Consultant freelance",
+    "name": "Pablo César Valenzuela Cárcamo",
+    "label": "Technical Lead | Ex Founder & CTO | Digital Transformation | Artificial Intelligence | IT Project Management",
     "image": "/pablo_valenzuela_carcamo.png",
     "email": "pabloce.valenzuela@gmail.com",
     "phone": "+56 9 7925 0156",
     "url": "#",
-    "summary": "Founder, CTO, Project Manager, and Software Engineer with 14+ years of experience delivering product-led\nplatforms, rapid MVPs (2–8 weeks), and alignment with OKRs, benchmarks, and organizational budgets.\n\nExtensive technical and executive experience leading projects, scaling agile teams, and managing portfolios (up to\n8 projects) using Scrum/PMI methodology, and leading AI agent proofs of concept (RAG/ReAct). Interested in CTO,\nDeputy Technology Manager, and Technology Project Manager roles.",
+    "summary": "Computer Engineer with over 14 years of experience leading critical technology projects and digital transformation initiatives in highly regulated organizations and startups. Ex Founder & CTO with experience defining technology strategy, leading multidisciplinary teams, managing portfolios of critical projects, and aligning technology with business objectives.\n\nSpecialized in cloud architecture, artificial intelligence, IT governance, project management, cost optimization, business continuity, and the adoption of software engineering best practices. Possesses both technical and executive vision and a proven ability to lead initiatives from strategy to implementation, coordinating teams, vendors, and stakeholders to generate measurable results.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -213,93 +213,111 @@
   ],
   "work": [
     {
-      "name": "Ecoinput - StartUp",
-      "position": "AI Software Engineer, full-stack (PoC/MVP projects)",
-      "url": "#",
-      "startDate": "2025-09-01",
-      "endDate": null,
-      "summary": "● I developed a Proof of Concept (PoC) for a RAG Agent in one week using LangGraph and Hugging Face Inference. The agent responds without hallucinations, using Excel as a knowledge source.\n● I implemented agentic patterns (ReAct) and optimized serverless inference to reduce the cost per token and accelerate time to market (TTM).\n● I’m currently leading a PoC for automating requests and reminders via WhatsApp Business, evaluating trade-offs between LLMs and infrastructure.",
-      "highlights": []
-    },
-    {
-      "name": "Freelance Projects",
-      "position": "Senior full-stack Freelance Software Engineer (project)",
+      "name": "Development of Artificial Intelligence initiatives",
+      "position": "AI Software Engineer",
       "url": "#",
       "startDate": "2024-11-01",
-      "endDate": "2025-08-31",
-      "summary": "● Truekazo (3 months): I developed back-end, push (FCM), serviced systemd for Rpush, p95 performance < 410ms, CI/CD, testing, TTM reduction ≈55%.\n● BKL Trading Company (2 months): I developed a Shopify widget integrated with GraphQL that improved the online store's UX.\n● BKL Trading Company (in progress): Developing a back-office web app to support the management of book imports and publications across various digital channels, with Shopify and Bsale integrations.",
+      "endDate": null,
+      "summary": "Responsibilities:\n- Definition of quality metrics, budget, SDLC, RAG flow design and observability.\n- Systems design, best practices, trade-offs, cost and performance optimization.\nResults:\n- ChatBot System PoC successfully completed for operational support and deployed in GCP.\n- A 100% Task Success Rate is achieved, 4/4 tasks successfully completed.\n- An Average Quality Score of 5/5 is achieved, a perfect score in all aspects of use cases.\n- ISO 42001/ISO 23894 guidelines for risk management in AI.\n- The average Cost Per Task is $0.001497 USD and the average Tokens Per Task is 4,247 tokens/task.",
       "highlights": []
     },
     {
-      "name": "Quantus - Water Earth",
-      "position": "Senior full-stack Freelance Software Engineer (project)",
+      "name": "Software Development Projects as a Freelancer",
+      "position": "Senior Software Engineer and Freelance Consultant",
+      "url": "#",
+      "startDate": "2024-11-01",
+      "endDate": "2026-04-30",
+      "summary": "Responsibilities:\n- Leadership and end-to-end development of the SDLC for Digital Transformation projects.\n- Trade-offs, systems design and high-demand cloud-native architecture.\n- Implementation of best practices DevSecOps and Cybersecurity.\n- Budget management, coordination with GCP and Supabase suppliers, Chile.\nResults:\n- Truekazo: MVP core back-end solution completed in 3 months, improves core performance to ≈p95 <410ms and Mobile App UX, reduces TTM ≈55%, cybersecurity with DevSecOps and reports progress to the General Manager.\n- Bookland: Widget system integrated with Shopify and completed in 2 months, improves store UX and AOV, and a Back-Office system for operational business support completed in 2 months.\n- Reduction of approximately 56% in SLA sales flow in store, increased AOV, reduced workload by approximately 60%, coordination with suppliers and stakeholders, and reporting of progress to the General Manager.\n- Implementation of Information Security best practices/ISO 27001 with IAM/KMS.\n- Cost optimization and automatic scalability for high-demand flows.",
+      "highlights": []
+    },
+    {
+      "name": "Quantus - Agua Tierra SPA",
+      "position": "Senior Software Engineer and Freelance Consultant",
       "url": "#",
       "startDate": "2024-06-01",
       "endDate": "2024-09-30",
-      "summary": "● I developed an MVP SaaS and API in 8 weeks, implemented CI/CD and automated testing that reduced time to market (TTM) per feature by approximately 35%. \n● I designed background job architecture (Celery/Redis) and optimized performance, achieving p95 < 345ms / p99 < 0.6s, improving UX and SLAs.\n● I advised on tech stack trade-offs and prepared TCO estimates to optimize budget and scalability.",
+      "summary": "I led and developed a solution end-to-end Web App MVP for irrigation canal management, trade-offs for high-demand architecture, technology roadmap and successfully completed project.",
       "highlights": []
     },
     {
       "name": "EHAC Group S.A.",
-      "position": "Senior full-stack Freelance Software Engineer (project)",
+      "position": "Senior Software Engineer and Freelance Consultant",
       "url": "#",
       "startDate": "2023-10-01",
       "endDate": "2024-04-30",
-      "summary": "● I developed a custom ERP in 7 months and deployed it on GCP with Cloud Run and autoscaling; CI/CD pipelines reduced errors and costs by ~60%.\n● I improved TTM by approximately 45% and performance (p95 ≈420ms, p99 ≈600ms) with background jobs and tuning, reducing maintenance SLAs from 4 to 1 hour.\n● I led the on-premises to cloud migration consulting, including TCO estimations and operational risk mitigation.",
+      "summary": "Results:\n- High-demand, scalable, cost-optimized (TCO) cloud-native system optimized at ≈p95 <345ms/ ≈p99 < 0.6s and the improvement of the Mobile App customer UX and SLAs of the business.\n- Automation and security with Pipeline DevSecOps CI/CD that reduced TTM of features by ≈35%.\n- Coordination with suppliers, stakeholders, consulting and trade-offs for production.\n- Leadership and Development of the MVP SPA System SDLC, completed in 8 weeks and reporting to the Founder.",
       "highlights": []
     },
     {
       "name": "Casablanca Transport S.A.",
-      "position": "Senior full-stack Software Engineer (project)",
+      "position": "Senior Software Engineer and Freelance Consultant",
       "url": "#",
       "startDate": "2023-08-01",
       "endDate": "2023-09-30",
-      "summary": "● I developed a CRM in 8 weeks that automated quote management and reduced request SLAs by approximately 65%, improving customer service and conversion rates.\n● I managed backlogs and sprints with Product Owners (Scrum/PMI) and prepared an AWS quote and migration recommendation to optimize Total Cost of Ownership (TCO).",
+      "summary": "I led and successfully developed an end-to-end mini-CRM system to automate and digitize processes and manage quotes for the web channel, improving conversion and customer service.\nResults:\n- Reduction of SLA of service requests via web channel in ≈65% through automation.\n- Leadership and development of the mini-CRM digitization system within a period of 8 weeks.\n- Feature TTM reduction of ≈40% and improved Cybersecurity practices (ISO 27001).\n- Coordination with suppliers and stakeholders.\n- Operational cost budget for the solution and progress is reported to the Management Control PO.",
       "highlights": []
     },
     {
-      "name": "Ecoinput - StartUp",
-      "position": "Founder, CTO, Senior Full-Stack Software Engineer",
+      "name": "Ecoinput - Digital Agency LTDA",
+      "position": "Founder and CTO",
       "url": "#",
       "startDate": "2019-11-01",
       "endDate": "2023-10-31",
-      "summary": "● I founded and designed the startup's business model in 6 months.\n● I launched the first MVP to production in 3 months, defining the backlog, tech stack, and roadmap. The MVP reduced customer service SLAs by approximately 45% and decreased operating costs.\n● I built and led an agile team of 5 people in 2 months, implementing CI/CD and a delivery cadence aligned with OKRs.\n● I negotiated and closed commercial partnerships (Klaviyo & Shopify Chile) that enabled integration channels and go-to-market strategies for e-commerce clients.",
+      "summary": "I founded the startup, led its commercial and technological strategy, building the development area, defining the technological roadmap, leading customer services and the correct operation of the business.\nResponsibilities:\n- As CTO, the definition and alignment of the business model with tech-stack for services.\n- Leadership and mentoring of the software development team (Scrum cell) and digital services.\n- Tech roadmap leadership and innovation, IT governance, cybersecurity and trade-offs.\n- Leader of the project portfolio, service management, budget, suppliers and key partners.\n- Implementation of best practices in project management (PMI/Scrum).",
       "highlights": []
     },
     {
-      "name": "Ripley Bank",
-      "position": "Project Manager in Innovation Management (Scrum Master)",
+      "name": "Ripley Bank, Innovation Management",
+      "position": "Project Manager / Scrum Master",
       "url": "#",
       "startDate": "2017-08-01",
       "endDate": "2019-09-30",
-      "summary": "● I built an agile team in 3 months and managed a portfolio of 8 concurrent projects (credit, insurance, back-office), applying PMI/Scrum to optimize CAPEX, aligned with the PO's OKRs, and mitigate risks.\n● I designed the program roadmap and critical path, improving visibility for stakeholders and predictability of deliveries.",
+      "summary": "Leadership of the portfolio of technological projects for financial services and critical core banking systems.\nResponsibilities:\n- Leadership from the portfolio of 8 projects for consumer credit, checking accounts, car insurance and critical home-banking system.\n- Leadership and mentoring of agile teams and oversight of the PMO's Capex budget.\n- Supervision of key suppliers (IBM and Taisa) and coordination of Stakeholders and Product Owners.\n- Coordination of solution deployment with team DevSecOps, application of cybersecurity and ISO 27001 standard for compliance with Law 21.663 and SGSI.\nResults:\n- Successful completion of the 8 critical projects in the led portfolio.\n- Mentoring an agile cell of 10 professionals in 3 months and leading PO sprints.\n- Successful budget monitoring and critical provider services (IBM and Taisa).\n- Successful coordination of the Backlog, Dailys and Sprints with Scrum Team, Product Owners and Stakeholders.\n- Critical path of portfolio projects and exposure to stakeholders to optimize resources, risk management and deadline compliance.\n- Inter-project dependency management and global critical path mapping of business lines using the Project Management Instrument (PMI).\n- Report the status of the Portfolio to Management and Stakeholders every two weeks (Sprint).",
       "highlights": []
     },
     {
-      "name": "Tessi Group, France",
-      "position": "Project Manager (Scrum Master)",
+      "name": "BBVA Colombia Bank. Tessi, Chile",
+      "position": "Project Manager / Scrum Master",
       "url": "#",
       "startDate": "2017-02-01",
       "endDate": "2017-06-30",
-      "summary": "● I built a team of 7 professionals in 2 months for core banking BPO (BBVA Colombia), reducing lead time by approximately 41% through coaching and process improvements.\n● I implemented PMI governance and Scrum (WBS, SGSR) to align deliverables with the client's OKRs.",
+      "summary": "Responsible for the portfolio of digital transformation projects and software development for BBVA Colombia bank and critical core banking system, training and leadership of Scrum cell.\nResults:\n- I trained in 2 months, I led an agile team of 7 professionals to resolve the Product Owner's requirements for the core banking and mortgage module.\n- Lead ReductionTime ≈41% through coaching and project governance with Scrum/PMI.\n- Successful management of the portfolio of 3 digital transformation projects and reporting to the IT Manager of Tessi.\n- Alignment of Chile's cell with OKRs, IT governance, cybersecurity and DevSecOps of Colombia.",
       "highlights": []
     },
     {
-      "name": "SBIF, now CMF",
-      "position": "Software Engineer (Kibernum outsourcing project)",
+      "name": "CMF (Commission for the Financial Market)",
+      "position": "Software Engineer",
       "url": "#",
       "startDate": "2016-04-01",
       "endDate": "2016-12-31",
-      "summary": "● I developed new components and pipeline automation (GitHub Actions) → Lead Time -50%; I managed 3 digital projects for the intranet.",
+      "summary": "The development of software components for institutional systems, automation of SDLC processes, management of internal projects, and coordination with the Product Owner.\nResults:\n- Lead Time Reduction ≈50% through Pipeline CI/CD, DevSecOps and reporting to the Product Owner.\n- The successful development of the new components for the institutional intranet and private site that were requirements of the Product Owner and meeting the Sprint deadlines.",
       "highlights": []
     },
     {
-      "name": "DIPRES, Chile",
-      "position": "Software Engineer (Kibernum outsourcing project)",
+      "name": "DIPRES (Budget Directorate)",
+      "position": "Software Engineer",
       "url": "#",
       "startDate": "2015-08-01",
       "endDate": "2016-03-31",
-      "summary": "● I developed and resolved bugs, features, and also testing for SIGFE, JEE, Oracle stored procedures for reporting modules, deliveries aligned with QA and government standards.",
+      "summary": "The development of features and bug fixes for the critical SIGFE System (Information System for the Financial Management of the State of Chile), coordination with team DevSecOps and application of Government standards of the internal software factory.\nResults:\n- Successful development and meeting deadlines for assigned Sprints of the SIGFE reporting module.\n- Coordination with cybersecurity teams and DevSecOps and progress is reported to the Project Manager.",
+      "highlights": []
+    },
+    {
+      "name": "Linux Latin America, TechTraining, Formación Digital SpA",
+      "position": "Rapporteur of Enterprise Software Engineering courses",
+      "url": "#",
+      "startDate": "2014-07-01",
+      "endDate": "2015-11-30",
+      "summary": "As a Computer Engineer and Speaker, I taught the courses on Critical Architecture and SOA, Enterprise and Scrum for the agile teams of Banco Falabella, Banco Scotiabank and Atcom Software Factory in Chile.\nResults:\n- CI successfully completed all the courses the consultant assigned me and reported to the Director.\n- Development of course and workshop content practical from setting up environments for Oracle SOA Suite, Eclipse Framework, JDK, Java, JEE and deploying enterprise applications on IBM WebSphere Application Server (WAS) and Oracle WebLogic.",
+      "highlights": []
+    },
+    {
+      "name": "ClinicIsamédica",
+      "position": "IT Assistant",
+      "url": "#",
+      "startDate": "2010-10-01",
+      "endDate": "2014-03-31",
+      "summary": "Responsible for daily level 1 and 3 (ITIL) technical support to internal clients of the clinic for critical systems and the development of custom software solutions.\nResults:\n- End-to-end implementation of the Incident Management System for internal customer support.\n- End-to-end development of an internal statistical management system in 6 months, covering SDLC.\n- Creation of reporting through SQL views and stored procedures in the Clinical System database for the clinical project and intended for internal management.\n- Microsoft Active Directory administration and Microsoft ecosystem credentials.",
       "highlights": []
     }
   ],
@@ -318,17 +336,7 @@
   ],
   "education": [
     {
-      "institution": "AIEP / Andrés Bello University",
-      "url": "#",
-      "area": "Computer Engineer",
-      "studyType": "Degree",
-      "startDate": null,
-      "endDate": null,
-      "score": null,
-      "courses": []
-    },
-    {
-      "institution": "Santo Tomás Institute",
+      "institution": "IP Santo Tomás",
       "url": "#",
       "area": "Computer Technician",
       "studyType": "Degree",
@@ -338,60 +346,20 @@
       "courses": []
     },
     {
-      "institution": "Pontifical Catholic University of Chile (PUC Chile)",
+      "institution": "Andrés Bello University / AIEP",
       "url": "#",
-      "area": "Project Management (PMI framework)",
+      "area": "Computer Engineering",
+      "studyType": "Degree",
+      "startDate": null,
+      "endDate": null,
+      "score": null,
+      "courses": []
+    },
+    {
+      "institution": "Pontifical Catholic University of Chile",
+      "url": "#",
+      "area": "Diploma in Project Management (PMI/PMBOK)",
       "studyType": "Diploma",
-      "startDate": null,
-      "endDate": null,
-      "score": null,
-      "courses": []
-    },
-    {
-      "institution": "Google & EOI",
-      "url": "#",
-      "area": "Cloud Computing",
-      "studyType": "Diploma",
-      "startDate": null,
-      "endDate": null,
-      "score": null,
-      "courses": []
-    },
-    {
-      "institution": "Stanford University and DeepLearning.ai",
-      "url": "#",
-      "area": "AI & Deep Learning",
-      "studyType": "Specialization",
-      "startDate": null,
-      "endDate": null,
-      "score": null,
-      "courses": []
-    },
-    {
-      "institution": "Hugging Face",
-      "url": "#",
-      "area": "AI Agents Fundamentals",
-      "studyType": "Certification",
-      "startDate": null,
-      "endDate": null,
-      "score": null,
-      "courses": []
-    },
-    {
-      "institution": "Cambridge",
-      "url": "#",
-      "area": "PET (B2) English (in progress)",
-      "studyType": "Certification",
-      "startDate": null,
-      "endDate": null,
-      "score": null,
-      "courses": []
-    },
-    {
-      "institution": "PUC Chile",
-      "url": "#",
-      "area": "Digital Products and Innovation in IT",
-      "studyType": "Seminar",
       "startDate": null,
       "endDate": null,
       "score": null,
@@ -426,50 +394,108 @@
   "skills": {
     "hard": [
       {
-        "name": "Product & Delivery: Design Thinking, Lean Startup, MVP, BPM, TCO/TTM, SLA management."
+        "name": "Cloud Computing: GCP (Google Cloud Platform), Cloud Run, Compute Engine and Docker."
       },
       {
-        "name": "Programming & Frameworks: Python, Java EE, JavaScript/TypeScript, Django, React, Spring Boot, Node.js."
+        "name": "Programming Languages: Python, Java, Java EE, JavaScript, and TypeScript."
       },
       {
-        "name": "Cloud & Infrastructure: GCP, AWS, FCM, DigitalOcean, CloudRun, Docker, Kubernetes, IaC."
+        "name": "AI: Python, LangGraph, LangChain, LangSmith, Pandas, Pytorch and Hugging Face."
       },
       {
-        "name": "AI/Data: ML/Deep Learning Fundamentals, LangGraph, Hugging Face, TensorFlow, PyTorch, Pandas, NumPy, RAG/React."
+        "name": "Frameworks: FastAPI, Django, React y Tailwind CSS."
       },
       {
-        "name": "DevOps & Observability: CI/CD (GitHub Actions, CodeBuild, Jenkins), EKS, ECR, systemd, unit testing, coverage, p95/p99 monitoring."
+        "name": "High-demand Computer Systems: Celery y Redis."
       },
       {
-        "name": "Databases: PostgreSQL, MySQL, Oracle, MongoDB, Redis."
+        "name": "Monitoring, Testing & QA Apps end-to-end: Sentry, Pytest and Ruff."
       },
       {
-        "name": "Tools & Management: Jira, Confluence, Slack, Git/GitHub."
+        "name": "Databases: PostgreSQL, Oracle, MySQL, MongoDB and GraphQL."
       },
       {
-        "name": "Practices & Principles: SOLID, DDD, OOP, REST APIs, Web Vitals, Basic OWASP, KISS."
+        "name": "CyberSecurity & Data Governance: ISO 27001 and IAM/KMS from GCP and Alation."
+      },
+      {
+        "name": "DevOps y DevSecOps: GitHub Actions, CI/CD, IaC, Git and GitHub."
+      },
+      {
+        "name": "Project Management and Administration: Jira, Confluence, Scrum and PMI/PMBOK."
+      },
+      {
+        "name": "Systems Architecture and Design: REST APIs, Microservices, Cloud-Native, DDD y SOLID."
       }
     ],
-    "soft": [
-      {
-        "name": "Leadership & Management: Delta Model (MLD), Scrum, PMI, OKR-driven delivery, roadmap and portfolio management."
-      },
-      {
-        "name": "Personal Skills: Optimistic, proactive, strong analytical skills, self-motivated, collaborative, loyal, effective communicator, studious, and an avid reader."
-      },
-      {
-        "name": "Weaknesses: Over-focused on details, which could lead to delays and mild frustration when the outcome differs from the plan."
-      }
+    "soft": []
+  },
+  "executiveSkills": {
+    "leadershipAndManagement": [
+      "Leadership of multidisciplinary teams.",
+      "Project portfolio management and application of Scrum and PMI frameworks.",
+      "Management of critical suppliers and stakeholders.",
+      "Digital Transformation and Technological Roadmaps."
+    ],
+    "strategyAndTechnology": [
+      "Technology strategy and roadmap aligned with the business.",
+      "IT Governance, Cybersecurity, Data Governance, Innovation and Trade-Offs.",
+      "Enterprise Architecture and Systems Design."
+    ],
+    "operationalManagement": [
+      "Cost optimization and risk management.",
+      "Operational continuity and information security.",
+      "Management of SLA, OKR, TCO and Time-to-Market."
     ]
   },
   "languages": [
     {
       "language": "Spanish",
-      "fluency": "Native speaker"
+      "fluency": "Native"
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "B2, intermediate"
+    }
+  ],
+  "notableAchievements": [
+    "I was the CTO and founder of Ecoinput, a technology SME, where I defined and aligned the commercial strategy with IT governance and achieved product-market fit through strategic partnerships and sales.",
+    "I led portfolios of critical technology projects for highly regulated organizations such as Banco Ripley, BBVA, the Financial Market Commission (CMF) and the Budget Directorate (DIPRES).",
+    "I built and led multidisciplinary development teams (Scrum cells), promoting agile practices, DevOps and continuous maintenance.",
+    "I implemented cloud-native solutions that reduced response times, improved scalability, and optimized operating costs.",
+    "I led end-to-end software projects from requirements gathering to production deployment, training, support, warranty and maintenance."
+  ],
+  "certifications": [
+    {
+      "name": "Certification in AI & Machine Learning",
+      "issuer": "Google Cloud"
+    },
+    {
+      "name": "Postgraduate Diploma in AI & Deep Learning",
+      "issuer": "Stanford University and DeepLearning.ai"
+    },
+    {
+      "name": "Certification in AI Agent Systems Fundamentals",
+      "issuer": "Hugging Face"
+    },
+    {
+      "name": "Certification in AI Fundamentals and LLM",
+      "issuer": "Hugging Face"
+    },
+    {
+      "name": "Digital Product Design Seminar",
+      "issuer": "Pontifical Catholic University of Chile"
+    },
+    {
+      "name": "IT Innovation Seminar",
+      "issuer": "Pontifical Catholic University of Chile"
+    },
+    {
+      "name": "Cybersecurity Certification",
+      "issuer": "Cisco Networking Academy"
+    },
+    {
+      "name": "Certification in Data Governance",
+      "issuer": "Alation University"
     }
   ],
   "interests": [

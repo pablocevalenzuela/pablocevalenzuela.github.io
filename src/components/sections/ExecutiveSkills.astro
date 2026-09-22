@@ -1,0 +1,64 @@
+---
+import Section from "../Section.astro"
+import { executiveSkills } from "@cv"
+
+const { leadershipAndManagement, strategyAndTechnology, operationalManagement } = executiveSkills
+---
+
+<Section title="Executive Skills">
+  <div class="skills-grid">
+    <div class="skill-category">
+      <h3>Leadership and Management</h3>
+      <ul>
+        {leadershipAndManagement.map((item) => (
+          <li>● {item}</li>
+        ))}
+      </ul>
+    </div>
+    <div class="skill-category">
+      <h3>Strategy and Technology</h3>
+      <ul>
+        {strategyAndTechnology.map((item) => (
+          <li>● {item}</li>
+        ))}
+      </ul>
+    </div>
+    <div class="skill-category">
+      <h3>Operational Management</h3>
+      <ul>
+        {operationalManagement.map((item) => (
+          <li>● {item}</li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</Section>
+
+<style>
+  .skills-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .skill-category h3 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  li {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    list-style: none;
+  }
+</style>
