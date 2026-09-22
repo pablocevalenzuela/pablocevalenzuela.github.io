@@ -7,6 +7,7 @@ import LinkedIn from "@/icons/LinkedIn.astro"
 import GitHub from "@/icons/GitHub.astro"
 import Zoom from "@/icons/Zoom.astro"
 import WorldMap from "@/icons/WorldMap.astro"
+import FileText from "@/icons/FileText.astro"
 import type { SocialIcon } from "@/types"
 
 const { name, label, image, location, profiles, phone, email } = free_basics
@@ -44,6 +45,12 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         {printInfo}
       </footer>
       <footer class="no-print">
+        <a
+          href="/me"
+          title={`Ver el CV de ${name}`}
+        >
+          <FileText />
+        </a>
         {
           email && (
             <a

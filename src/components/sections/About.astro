@@ -3,10 +3,12 @@ import Section from "../Section.astro"
 
 import { basics } from "@cv"
 const { summary } = basics
+
+const paragraphs = summary.split("\n\n")
 ---
 
-<Section title="About">
-  <p>
-    {summary}
-  </p>
+<Section title="Executive Summary">
+  {paragraphs.map((p) => (
+    <p>{p}</p>
+  ))}
 </Section>
