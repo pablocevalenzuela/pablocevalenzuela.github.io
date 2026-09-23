@@ -43,7 +43,7 @@
     "email": "pabloce.valenzuela@gmail.com",
     "phone": "+56 9 7925 0156",
     "url": "#",
-    "summary": "Ayudo a empresas a reducir costos, acelerar entregas y automatizar procesos críticos con foco en el negocio. \n Más de 14 años liderando proyectos de software, informática, infraestructura y transformación digital en entornos exigentes y regulados como Banca, Instituciones Públicas y Multinacionales. He trabajado en iniciativas que reducen costos, mejoran SLA/OKR y aceleran la entrega de valor al negocio.",
+    "summary": "I’m a Computer Engineer by profession with over 14 years of experience. As a ex CTO and founder of my own technology company, I possess a strong technical and executive perspective that enables me to lead software development and digital transformation projects, manage technical teams, coordinate strategically with vendors and stakeholders, and align technology strategy and roadmaps with organizational objectives.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -74,8 +74,12 @@
     ]
   },
   "cta_one": {
-    "name": "Agendar una reunión de 30 min",
+    "name": "Schedule a 30-minute meeting",
     "url": "https://calendly.com/pabloce-valenzuela/30min"
+  },
+  "newsletter": {
+    "name": "Suscribirte en LinkedIn",
+    "url": "https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7465989270630154240"
   },
   "freelanceServices": [
     {
@@ -96,17 +100,29 @@
     }
   ],
   "results": [
-    {
-      "desc": "● Reducción de costos operativos cercanos al 60%"
+{
+      "company": "Bookland Bookstore, Chile (Development and delivery of the Back-Office System)",
+      "desc": "● I helped reduce the online store sales workflow SLA by ≈56%, increased AOV by ≈30%, and cut the online channel's operational workload by ≈60%. All within a two-month timeframe—by developing and delivering a Back-Office System to support business operations.",
+      "desc2": "● UX improvements, business stability (SRE), and costs (FinOps): I ensured that 95% of user requests to the back-office system are resolved in under a third of a second, delivering a positive user experience thanks to a P95 latency of ≈345ms; additionally, P99 latency was optimized to ≈0.6s, guaranteeing that even in the slowest 1% of cases—such as during peak times like Black Friday or heavy queries—the system responds in just over half a second. I achieved over 99.9% availability for the channel integrated with the online store—ensuring full operational continuity during business hours—and reduced the Total Cost of Ownership (TCO) by ≈30% by optimizing monthly IT investment through payment strictly based on the exact seconds of system usage.",
+      "video": "bookland_project.mp4"
     },
     {
-      "desc": "● Disminución del lead time en cerca de 50% con CI/CD y mejora de procesos"
+      "company": "Quantus - Water & Earth Spa, Chile (Development and delivery of the MVP Web App)",
+      "desc": "● I helped to reduce the MVP's time-to-market (TTM) by ≈35% by creating a DevSecOps CI/CD pipeline during the development and deployment of a Monitoring System for irrigation canals in Chile.",
+      "desc2": "● I reduced the Total Cost of Ownership (TCO) and monthly cloud provider costs by ≈45% by implementing auto-scaling based on the volume of active app users, adopting a pay-per-use model for computing power, and utilizing the cloud provider's serverless execution model.",
+      "video": "aquatierra_project.mp4"
     },
     {
-      "desc": "● Mejora de disponibilidad, SLA y estabilidad operacional"
+      "company": "Ehac Group Ltda., Chile (Development and delivery of the custom Web App ERP System)",
+      "desc": "● I helped reduce the air conditioning maintenance SLA for Group clients from 2 hours to 30 minutes—covering the entire process from request to service delivery—and cut the workload by approximately 40% regarding work order (WO) management, inventory control (equipment and supplies), and technician scheduling/assignment, by developing and deploying a custom web-based SPA integrated with the ERP system.",
+      "desc2": "",
+      "video": "ehac_project.mp4"
     },
     {
-      "desc": "● Liderazgo de equipos y portafolios multi-proyecto"
+      "company": "Company 4",
+      "desc": "● Liderazgo de equipos y portafolios multi-proyecto",
+      "desc2": "● Entrega de 8 proyectos críticos en plazo, cumplimiento de OKRs/SLA del portafolio y mejora del TTM de features en ≈40% con gobernanza ágil.",
+      "video": ""
     }
   ],
   "problems": [
@@ -188,7 +204,7 @@
     }
   ],
   "final_cta": {
-    "name": "Agendar una reunión de 30 min",
+    "name": "Schedule a 30-minute meeting",
     "url": "https://calendly.com/pabloce-valenzuela/30min"
   },
   "free_serv": [
