@@ -1,5 +1,5 @@
 ---
-import { basics } from "@cv"
+import { basics, newsletter } from "@cv"
 import Section from "@/components/Section.astro"
 import Mail from "@/icons/Mail.astro"
 import Phone from "@/icons/Phone.astro"
@@ -7,6 +7,7 @@ import LinkedIn from "@/icons/LinkedIn.astro"
 import GitHub from "@/icons/GitHub.astro"
 import Zoom from "@/icons/Zoom.astro"
 import WorldMap from "@/icons/WorldMap.astro"
+import Newsletter from "@/icons/Newsletter.astro"
 import Breadcrumb from "@/components/Breadcrumb.astro"
 import type { SocialIcon } from "@/types"
 
@@ -44,6 +45,18 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         {printInfo}
       </footer>
       <footer class="no-print">
+        {
+          newsletter && (
+            <a
+              href={newsletter.url}
+              title={`Seguir la newsletter de ${name}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Newsletter />
+            </a>
+          )
+        }
         {
           email && (
             <a

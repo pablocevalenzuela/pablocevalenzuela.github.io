@@ -4,23 +4,192 @@ import Section from "../Section.astro"
 import { results } from "@cv"
 ---
 
-<Section title="Resultados que ya he logrado">
+<Section title="Some results obtained">
   <ul>
     {
-      results.map(({ desc }) => {
+      results.map(({ company, desc, desc2, video }) => {
         return (
           <li>
             <article>
+                {company && <h3 class="company-title">{company}</h3>}
                 <p>{desc}</p>
+                {desc2 && <p class="desc2">{desc2}</p>}
+                <button
+                  type="button"
+                  class={video ? "demo-btn" : "demo-btn demo-btn--empty"}
+                  data-video={video ? `/videos/${video}` : ""}
+                  aria-label={video ? `Ver sistema de ${company}` : `Video no disponible de ${company}`}
+                >
+                  <svg class="play-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <polygon points="7,4 20,12 7,20" />
+                  </svg>
+                  View project
+                </button>
             </article>
           </li>
         )
       })
     }
   </ul>
+
+  <dialog id="video-dialog">
+    <button type="button" class="dialog-close" aria-label="Cerrar video">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M6 6l12 12M18 6L6 18" />
+      </svg>
+    </button>
+    <video id="demo-video" controls playsinline preload="metadata"></video>
+  </dialog>
 </Section>
 
+<script>
+  const dialog = document.getElementById("video-dialog") as HTMLDialogElement
+  const video = document.getElementById("demo-video") as HTMLVideoElement
+
+  const buttons = document.querySelectorAll<HTMLButtonElement>(".demo-btn")
+  const closeButton = dialog.querySelector<HTMLButtonElement>(".dialog-close")
+
+  if (!dialog || !video || !closeButton) throw new Error("Video dialog elements missing")
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const src = button.dataset.video
+      if (!src) return
+      video.src = src
+      dialog.showModal()
+      video.play()
+    })
+  })
+
+  const closeAndPause = () => {
+    video.pause()
+    video.removeAttribute("src")
+    dialog.close()
+  }
+
+  closeButton.addEventListener("click", closeAndPause)
+
+  dialog.addEventListener("click", (event) => {
+    if (event.target === dialog) closeAndPause()
+  })
+
+  dialog.addEventListener("close", () => {
+    video.pause()
+    video.removeAttribute("src")
+  })
+</script>
+
 <style>
+  .company-title {
+    margin: 0 0 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #666;
+  }
+
+  li {
+    margin-bottom: 1.25rem;
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
+
+  .desc2 {
+    margin-top: 0.5rem;
+  }
+
+  .demo-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 0.75rem;
+    padding: 6px 14px;
+    background: transparent;
+    border: 1px solid #e2e2e2;
+    border-radius: 6px;
+    color: #111;
+    font-family: inherit;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .demo-btn:hover {
+    background: #f5f5f5;
+    border-color: #111;
+  }
+
+  .demo-btn--empty {
+    opacity: 0.45;
+    cursor: not-allowed;
+  }
+
+  .demo-btn--empty:hover {
+    background: transparent;
+    border-color: #e2e2e2;
+  }
+
+  .play-icon {
+    width: 14px;
+    height: 14px;
+    fill: currentColor;
+  }
+
+  dialog {
+    border: none;
+    border-radius: 10px;
+    padding: 0;
+    max-width: min(92vw, 880px);
+    width: 100%;
+    background: #111;
+    box-shadow: 0 12px 40px rgb(0 0 0 / 0.5);
+  }
+
+  dialog::backdrop {
+    background: rgb(0 0 0 / 0.75);
+  }
+
+  #demo-video {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    aspect-ratio: 16 / 9;
+    background: #000;
+  }
+
+  .dialog-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background: rgb(0 0 0 / 0.55);
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    z-index: 1;
+  }
+
+  .dialog-close:hover {
+    background: rgb(0 0 0 / 0.85);
+  }
+
+  .dialog-close svg {
+    width: 14px;
+    height: 14px;
+    stroke: currentColor;
+    stroke-width: 2;
+    fill: none;
+    stroke-linecap: round;
+  }
+
   .cta-minimal {
     display: inline-flex;
     align-items: center;
@@ -58,6 +227,15 @@ import { results } from "@cv"
       border-color: #333;
     }
     .cta-minimal:hover {
+      background-color: #222;
+      border-color: #eee;
+    }
+
+    .demo-btn {
+      color: #eee;
+      border-color: #333;
+    }
+    .demo-btn:hover {
       background-color: #222;
       border-color: #eee;
     }
