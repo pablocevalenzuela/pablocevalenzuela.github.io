@@ -4,14 +4,16 @@ import Section from "../Section.astro"
 import { results } from "@cv"
 ---
 
-<Section title="Resultados que ya he logrado">
+<Section title="Results achieved">
   <ul>
     {
-      results.map(({ desc }) => {
+      results.map(({ company, desc, desc2 }) => {
         return (
           <li>
             <article>
+                {company && <h3 class="company-title">{company}</h3>}
                 <p>{desc}</p>
+                {desc2 && <p class="desc2">{desc2}</p>}
             </article>
           </li>
         )
@@ -21,6 +23,25 @@ import { results } from "@cv"
 </Section>
 
 <style>
+  .company-title {
+    margin: 0 0 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #666;
+  }
+
+  li {
+    margin-bottom: 1.25rem;
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
+
+  .desc2 {
+    margin-top: 0.5rem;
+  }
+
   .cta-minimal {
     display: inline-flex;
     align-items: center;

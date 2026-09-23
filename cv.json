@@ -43,7 +43,7 @@
     "email": "pabloce.valenzuela@gmail.com",
     "phone": "+56 9 7925 0156",
     "url": "#",
-    "summary": "Ayudo a empresas a reducir costos, acelerar entregas y automatizar procesos críticos con foco en el negocio. \n Más de 14 años liderando proyectos de software, informática, infraestructura y transformación digital en entornos exigentes y regulados como Banca, Instituciones Públicas y Multinacionales. He trabajado en iniciativas que reducen costos, mejoran SLA/OKR y aceleran la entrega de valor al negocio.",
+    "summary": "I’m a Computer Engineer by profession with over 14 years of experience. As a ex CTO and founder of my own technology company, I possess a strong technical and executive perspective that enables me to lead software development and digital transformation projects, manage technical teams, coordinate strategically with vendors and stakeholders, and align technology strategy and roadmaps with organizational objectives.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -74,7 +74,7 @@
     ]
   },
   "cta_one": {
-    "name": "Agendar una reunión de 30 min",
+    "name": "Schedule a 30-minute meeting",
     "url": "https://calendly.com/pabloce-valenzuela/30min"
   },
   "freelanceServices": [
@@ -96,17 +96,25 @@
     }
   ],
   "results": [
-    {
-      "desc": "● Reducción de costos operativos cercanos al 60%"
+{
+      "company": "Bookland Bookstore, Chile",
+      "desc": "● For Bookland Bookstore, Chile: I reduced the online store sales workflow SLA by ≈56%, increased AOV by ≈30%, and cut the online channel's operational workload by ≈60%. All within a two-month timeframe—by developing and delivering a Back-Office System to support business operations.",
+      "desc2": "● Mejoras de rendimiento: p95 ≈345ms y p99 ≈0.6s en respuestas críticas, +99.9% de disponibilidad del canal online y reducción del TCO en ≈30%."
     },
     {
-      "desc": "● Disminución del lead time en cerca de 50% con CI/CD y mejora de procesos"
+      "company": "Company 2",
+      "desc": "● Disminución del lead time en cerca de 50% con CI/CD y mejora de procesos",
+      "desc2": "● Latencia de despliegue: deploy a producción en ≈5 min con CI/CD (GitHub Actions), increase de deployment frequency a diario, change failure rate ≈2% y MTTR ≈30 min."
     },
     {
-      "desc": "● Mejora de disponibilidad, SLA y estabilidad operacional"
+      "company": "Company 3",
+      "desc": "● Mejora de disponibilidad, SLA y estabilidad operacional",
+      "desc2": "● Uptime de 99.9%→99.99%, p95 ≈420ms y p99 ≈600ms con jobs en background y autoscaling, y reducción del SLA de mantenimiento de 4 a 1 HH."
     },
     {
-      "desc": "● Liderazgo de equipos y portafolios multi-proyecto"
+      "company": "Company 4",
+      "desc": "● Liderazgo de equipos y portafolios multi-proyecto",
+      "desc2": "● Entrega de 8 proyectos críticos en plazo, cumplimiento de OKRs/SLA del portafolio y mejora del TTM de features en ≈40% con gobernanza ágil."
     }
   ],
   "problems": [
@@ -188,7 +196,7 @@
     }
   ],
   "final_cta": {
-    "name": "Agendar una reunión de 30 min",
+    "name": "Schedule a 30-minute meeting",
     "url": "https://calendly.com/pabloce-valenzuela/30min"
   },
   "free_serv": [
