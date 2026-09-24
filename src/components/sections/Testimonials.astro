@@ -1,0 +1,50 @@
+---
+import Section from "../Section.astro"
+
+import { testimonials } from "@cv"
+---
+
+<Section title="What customers say">
+  <ul>
+    {
+      testimonials.map(({ quote, name, role, company }) => {
+        return (
+          <li>
+            <article>
+              <h3 class="testimonial-company">{company}</h3>
+              <p>&ldquo;{quote}&rdquo;</p>
+              <footer>
+                <span class="testimonial-author">— {name}, {role}</span>
+              </footer>
+            </article>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  li {
+    margin-bottom: 1.25rem;
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
+
+  .testimonial-company {
+    margin: 0 0 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #666;
+  }
+
+  .testimonial-author {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+</style>
