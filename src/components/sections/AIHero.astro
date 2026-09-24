@@ -1,5 +1,4 @@
 ---
-import { basics } from "@cv"
 import Section from "@/components/Section.astro"
 import Mail from "@/icons/Mail.astro"
 import Phone from "@/icons/Phone.astro"
@@ -9,7 +8,8 @@ import Zoom from "@/icons/Zoom.astro"
 import WorldMap from "@/icons/WorldMap.astro"
 import type { SocialIcon } from "@/types"
 
-const { name, label, image, location, profiles, phone, email } = basics
+import { free_basics, ai_intro } from "@cv"
+const { name, location, profiles, phone, email } = free_basics
 const { city, region } = location
 
 const SOCIAL_ICONS: SocialIcon = {
@@ -17,35 +17,29 @@ const SOCIAL_ICONS: SocialIcon = {
   LinkedIn,
   Zoom,
 }
-
-const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
-const linkedUrl = linkedInfo?.url
-
-const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
 ---
 
 <Section>
   <a href="/" class="back-link" title="Back to home">← Home</a>
   <div class="container">
     <div class="info">
-      <h1>{name}</h1>
-      <p>{label}</p>
-      <span>
-        <WorldMap />
-        {city}, {region}
-      </span>
-      <span>
-        Spanish - English
-      </span>
-      <footer class="print">
-        {printInfo}
-      </footer>
+      <h1>Applied AI &amp; Agentic Systems</h1>
+      <p class="intro">{ai_intro}</p>
+      <div class="meta">
+        <span>
+          <WorldMap />
+          {city}, {region}
+        </span>
+        <span>
+          Spanish - English
+        </span>
+      </div>
       <footer class="no-print">
         {
           email && (
             <a
               href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name}`}
+              title={`Send an email to ${name} at ${email}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -57,7 +51,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
           phone && (
             <a
               href={`tel:${phone}`}
-              title={`Llamar por teléfono a ${name} al número ${phone}`}
+              title={`Call ${name} at ${phone}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -72,20 +66,17 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
             return (
               <a
                 href={url}
-                title={`Visitar el perfil de ${name} en ${network}`}
+                title={`Visit the ${name} profile on ${network}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Icon />
               </a>
             )
-          }) 
+          })
         }
       </footer>
     </div>
-    <figure>
-      <img src={image} alt={name} />
-    </figure>
   </div>
 </Section>
 
@@ -114,30 +105,30 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    padding-right: 32px;
   }
 
   h1 {
     font-size: 2rem;
+    line-height: 1.25;
   }
 
-  h2 {
-    color: #444;
+  .intro {
+    color: #333;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     text-wrap: balance;
   }
 
-  img {
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    width: 128px;
-    border-radius: 16px;
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    margin-top: 4px;
   }
 
-  span {
+  .meta span {
     color: #666;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 0.25rem;
     font-size: 0.85rem;
@@ -171,10 +162,6 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
   }
 
   @media (width <= 700px) {
-    .container {
-      flex-direction: column-reverse;
-    }
-
     .info {
       justify-content: center;
       align-items: center;
@@ -182,18 +169,13 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
       text-align: center;
     }
 
-    figure {
-      display: flex;
+    .back-link {
+      text-align: center;
+      width: 100%;
+    }
+
+    .meta {
       justify-content: center;
-      align-items: center;
-    }
-
-    h2 {
-      text-wrap: balance;
-    }
-
-    figure {
-      margin: 0 auto;
     }
   }
 
@@ -204,6 +186,24 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
 
     .back-link:hover {
       color: #eee;
+    }
+
+    .intro {
+      color: #ccc;
+    }
+
+    .meta span {
+      color: #999;
+    }
+
+    footer a {
+      color: #aaa;
+      border-color: #333;
+    }
+
+    footer a:hover {
+      background: #222;
+      border-color: #eee;
     }
   }
 </style>

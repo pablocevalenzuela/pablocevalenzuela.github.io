@@ -1,59 +1,187 @@
 ---
 import Section from "../Section.astro"
+import Calendly from "@/icons/Calendly.astro"
+import Mail from "@/icons/Mail.astro"
 
-import { cta_one } from "@cv"
+import { cta_one, free_basics } from "@cv"
 const { name, url } = cta_one
+const { email } = free_basics
 ---
 
-<Section title="Let's talk">
-  <p>
-    {name} 
-    <a href={url} class="cta-minimal" target="_blank">
-        Here
-    </a>
-  </p>
+<Section>
+  <div class="cta-card">
+    <h3 class="cta-heading">Let's build your next Software, IT or AI project together</h3>
+    <p class="cta-text">
+      Tell me about your goals and I'll help you define the best path — from strategy to production.
+    </p>
+    <div class="cta-actions">
+      <a
+        href={url}
+        class="cta-primary"
+        title="Schedule a free 30-minute meeting"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Calendly />
+        {name}
+      </a>
+      <a
+        href={`mailto:${email}`}
+        class="cta-secondary"
+        title={`Send an email to ${email}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Mail />
+        Prefer email
+      </a>
+    </div>
+    <p class="cta-note">Free 30-minute call · No commitment</p>
+  </div>
 </Section>
 
 <style>
-  .cta-minimal {
+  .cta-card {
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    padding: 2.25rem 2rem;
+    text-align: center;
+    background: #fafafa;
+  }
+
+  .cta-heading {
+    margin: 0 0 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111;
+    text-wrap: balance;
+  }
+
+  .cta-text {
+    margin: 0 0 1.25rem;
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-wrap: balance;
+  }
+
+  .cta-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .cta-primary {
     display: inline-flex;
     align-items: center;
-    gap: 10px;
-    padding: 10px 20px;
-    color: #111; /* Color de texto oscuro */
-    text-decoration: none;
-    font-size: 0.95rem;
-    font-weight: 500;
-    border: 1px solid #e2e2e2; /* Borde suave */
+    gap: 8px;
+    padding: 12px 22px;
+    background: #111;
+    color: #fff;
     border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .cta-primary:hover {
+    background: #333;
+    transform: translateY(-1px);
+  }
+
+  .cta-primary svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .cta-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 22px;
+    background: transparent;
+    border: 1px solid #e2e2e2;
+    border-radius: 6px;
+    color: #111;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
     transition: all 0.2s ease;
-    background-color: transparent;
   }
 
-  .cta-minimal:hover {
-    background-color: #f5f5f5;
-    border-color: #111;
-    transform: translateY(-1px); /* Efecto sutil de elevación */
+  .cta-secondary:hover {
+    background: #eee;
+    border-color: #ddd;
   }
 
-  /* Animación para la flecha al hacer hover */
-  .cta-minimal svg {
-    transition: transform 0.2s ease;
+  .cta-secondary svg {
+    width: 16px;
+    height: 16px;
+    color: #777;
   }
 
-  .cta-minimal:hover svg {
-    transform: translateX(4px);
+  .cta-note {
+    margin-top: 0.75rem;
+    color: #777;
+    font-size: 0.75rem;
   }
 
-  /* Si tu sitio tiene modo oscuro, puedes añadir esto: */
+  @media (width <= 700px) {
+    .cta-card {
+      padding: 1.5rem 1rem;
+    }
+
+    .cta-actions {
+      flex-direction: column;
+    }
+
+    .cta-primary,
+    .cta-secondary {
+      justify-content: center;
+    }
+  }
+
   @media (prefers-color-scheme: dark) {
-    .cta-minimal {
+    .cta-card {
+      background: #161616;
+      border-color: #333;
+    }
+
+    .cta-heading {
+      color: #eee;
+    }
+
+    .cta-text {
+      color: #999;
+    }
+
+    .cta-primary {
+      background: #eee;
+      color: #111;
+    }
+
+    .cta-primary:hover {
+      background: #fff;
+    }
+
+    .cta-secondary {
       color: #eee;
       border-color: #333;
     }
-    .cta-minimal:hover {
-      background-color: #222;
+
+    .cta-secondary:hover {
+      background: #222;
       border-color: #eee;
+    }
+
+    .cta-secondary svg {
+      color: #aaa;
+    }
+
+    .cta-note {
+      color: #888;
     }
   }
 </style>
