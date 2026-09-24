@@ -117,96 +117,28 @@
       "desc": "● I helped reduce the air conditioning maintenance SLA for Group clients from 2 hours to 30 minutes—covering the entire process from request to service delivery—and cut the workload by approximately 40% regarding work order (WO) management, inventory control (equipment and supplies), and technician scheduling/assignment, by developing and deploying a custom web-based SPA integrated with the ERP system.",
       "desc2": "",
       "video": "ehac_project.mp4"
-    },
-    {
-      "company": "Company 4",
-      "desc": "● Liderazgo de equipos y portafolios multi-proyecto",
-      "desc2": "● Entrega de 8 proyectos críticos en plazo, cumplimiento de OKRs/SLA del portafolio y mejora del TTM de features en ≈40% con gobernanza ágil.",
-      "video": ""
     }
   ],
-  "problems": [
+  "testimonials": [
     {
-      "desc": "● Costos altos en infraestructura y operación"
+      "quote": "Pablo took our online sales operation to the next level. In two months, he reduced the book publishing SLA from four hours to under two, and the system now responds in fractions of a second—even during peak hours; he also improved the customer UX during book purchases during high-demand periods.",
+      "name": "Bookland",
+      "role": "José Curiqueo Díaz, General Manager",
+      "company": "Bookland Bookstore, Chile"
     },
     {
-      "desc": "● Entregas lentas o inestables"
+      "quote": "We managed to launch the MVP in record time thanks to their technical vision. Monthly cloud costs dropped by 45%, and the platform scales automatically based on demand.",
+      "name": "Quantus",
+      "role": "Ricardo Alfonso Pizarro Schkolnik, Founder",
+      "company": "Quantus - Water & Earth Spa, Chile"
     },
     {
-      "desc": "● Procesos manuales que consumen tiempo"
-    },
-    {
-      "desc": "● Falta de alineación entre tecnología y negocio"
-    },
-    {
-      "desc": "● Necesidad de introducir IA sin improvisación"
+      "quote": "We went from handling maintenance requests in up to two hours to resolving them in 30 minutes. Pablo designed a custom ERP system that completely transformed our work order management.",
+      "name": "EHAC",
+      "role": "Marilyn Álvarez, Commercial Manager",
+      "company": "Ehac Group Ltda., Chile"
     }
-  ],
-  "services": [
-    {
-      "title": "Consultoría CTO fraccional",
-      "desc": "Roadmap, priorización, arquitectura, equipo, métricas y gobierno."
-    },
-    {
-      "title": "Consultoría tecnológica estratégica",
-      "desc": "Alta capacidad de análisis sistémico del negocio para resolver con tecnología."
-    },
-    {
-      "title": "Transformación cloud y DevOps",
-      "desc": "Migración, CI/CD, observabilidad, automatización y reducción de TCO."
-    },
-    {
-      "title": "Automatización e IA aplicada",
-      "desc": "RAG, Agentes de IA, flujos operativos y asistencia inteligente."
-    },
-    {
-      "title": "Auditoría técnica y operacional",
-      "desc": "Diagnóstico de cuellos de botella, riesgos y oportunidades de mejora."
-    }
-  ],
-  "how_to_work": [
-    {
-      "title": "1. Diagnóstico inicial",
-      "desc": "Entiendo tu contexto, problemas y objetivos."
-    },
-    {
-      "title": "2. Identificación de oportunidades",
-      "desc": "Detecto dónde está el mayor impacto en costo, velocidad y eficiencia."
-    },
-    {
-      "title": "3. Diseño de solución",
-      "desc": "Defino arquitectura, estrategia, cronograma y plan de ejecución."
-    },
-    {
-      "title": "4. Implementación priorizada",
-      "desc": "Ejecuto con foco en resultados rápidos y medibles."
-    },
-    {
-      "title": "5. Medición y mejora continua",
-      "desc": "Ajusto en base a métricas reales del negocio."
-    }
-  ],
-  "exits": [
-    {
-      "problem": "El cliente Librería Bookland tardaba +4 horas en publicar sus productos importados para la venta en su Tienda Online.",
-      "solution": "● Diseñé, desarrollé e implementé en 2 meses una solución cloud-native y que fue una Aplicación Web de Back-Office.",
-      "goal": "● Se redujo en un 56% el SLA de publicación de artículos importados en canal online, aumentó AOV y se redujo carga laboral en un 60%."
-    },
-    {
-      "problem": "El cliente Quantus - Agua Tierra necesitaba lanzar su MVP y API en un deadline ajustado para lograr levantar inversión.",
-      "solution": "● Diseñe, desarrollé e implementé el MVP y API en 8 semanas, implementé pipeline CI/CD y testing automatizado en GCP.",
-      "goal": "● Optimicé rendimiento logrando p95 < 345ms / p99 < 0.6s, mejorando UX y SLA, asesoré en trade-offs de tech stack y elaboré estimaciones de TCO para optimizar presupuesto y escalabilidad en caso de alta demanda operacional durante lanzamiento MVP."
-    },
-    {
-      "problem": "El cliente EHAC Group S.A. necesitaba un sistema que soportara la operación de ODT diaria para mejorar SLA y optimizar costos.",
-      "solution": "● Diseñé, desarrollé e implementé un ERP end-to-end en 7 meses y desplegué solución en GCP, autoscaling y pipelines CI/CD.",
-      "goal": "● Mejoré TTM en ~45% y rendimiento (p95 ≈420ms, p99 ≈600ms) con jobs en background y tuning, reduje SLA de mantenimiento de 4 a 1 HH."
-    }
-  ],
-  "final_cta": {
-    "name": "Schedule a 30-minute meeting",
-    "url": "https://calendly.com/pabloce-valenzuela/30min"
-  },
+  ],    
   "free_serv": [
     {
       "name": "Consultoría en Proyectos de IA(Inteligencia Artificial)",
