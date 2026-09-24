@@ -3,10 +3,13 @@ import Layout from "@/layouts/Layout.astro"
 
 import FreeAbout from "@/components/sections/FreeAbout.astro"
 import FreeHero from "@/components/sections/FreeHero.astro"
+import StatsBar from "@/components/sections/StatsBar.astro"
 import KeyboardManager from "@/components/KeyboardManager.astro"
 import CTAOne from "@/components/sections/CTAOne.astro"
 import Results from "@/components/sections/Results.astro"
 import Testimonials from "@/components/sections/Testimonials.astro"
+import Services from "@/components/sections/Services.astro"
+import Process from "@/components/sections/Process.astro"
 
 import { free_basics } from "@cv"
 const { name, label } = free_basics
@@ -15,10 +18,13 @@ const { name, label } = free_basics
 <Layout title={`${name} - ${label}`}>
   <main>
     <FreeHero />
+    <StatsBar />
     <FreeAbout />
-    <CTAOne />
     <Results />
     <Testimonials />
+    <Services />
+    <Process />
+    <CTAOne />
   </main>
 
   <KeyboardManager />

@@ -1,5 +1,5 @@
 ---
-import { free_basics, newsletter } from "@cv"
+import { free_basics, freelanceServices, cta_one, newsletter } from "@cv"
 import Section from "@/components/Section.astro"
 import Mail from "@/icons/Mail.astro"
 import Phone from "@/icons/Phone.astro"
@@ -9,10 +9,14 @@ import Zoom from "@/icons/Zoom.astro"
 import WorldMap from "@/icons/WorldMap.astro"
 import FileText from "@/icons/FileText.astro"
 import Newsletter from "@/icons/Newsletter.astro"
+import Calendly from "@/icons/Calendly.astro"
 import type { SocialIcon } from "@/types"
 
 const { name, label, image, location, profiles, phone, email } = free_basics
 const { city, region } = location
+
+const tagline =
+  "Ex CTO & Founder — I lead and build your software projects end-to-end, from strategy to production."
 
 const SOCIAL_ICONS: SocialIcon = {
   GitHub,
@@ -23,52 +27,89 @@ const SOCIAL_ICONS: SocialIcon = {
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
 const linkedUrl = linkedInfo?.url
 
+const bookingUrl = cta_one.url
+const bookingLabel = cta_one.name
+
 const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
 ---
 
 <Section>
   <div class="container">
     <div class="info">
-    <a href="/me" class="cv-link">
-      <h1>
-        {name}
-      </h1>
-    </a>
+      <a href="/me" class="cv-link">
+        <h1>
+          {name}
+        </h1>
+      </a>
       <p>{label}</p>
-      <span>
-        <WorldMap />
-        {city}, {region}
-      </span>
-      <span>
-        Spanish - English
-      </span>
+      <p class="tagline">{tagline}</p>
+      <ul class="services">
+        {
+          freelanceServices.map(({ title }) => (
+            <li>{title}</li>
+          ))
+        }
+      </ul>
+      <div class="meta">
+        <span>
+          <WorldMap />
+          {city}, {region}
+        </span>
+        <span>
+          Spanish - English
+        </span>
+      </div>
+      <div class="hero-actions">
+        <a
+          href={bookingUrl}
+          class="cta-primary"
+          title={`Schedule ${bookingLabel}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Calendly />
+          {bookingLabel}
+        </a>
+        <a
+          href="/ai"
+          class="cta-ghost"
+          title="Explore my applied AI proofs of concept"
+        >
+          See AI PoCs
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 12h14M13 6l6 6-6 6" />
+          </svg>
+        </a>
+        {
+          newsletter && (
+            <a
+              href={newsletter.url}
+              class="cta-ghost"
+              title={`Follow the newsletter of ${name}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Newsletter />
+              My Newsletter
+            </a>
+          )
+        }
+      </div>
       <footer class="print">
         {printInfo}
       </footer>
       <footer class="no-print">
         <a
           href="/me"
-          title={`Ver el CV de ${name}`}
+          title={`View the CV of ${name}`}
         >
           <FileText />
         </a>
         {
-          newsletter && (
-            <a
-              href={newsletter.url}
-              title={`Seguir la newsletter de ${name}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Newsletter />
-            </a>
-          )
-        }
-        {
           email && (
             <a
               href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              title={`Send an email to ${name} at ${email}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -80,7 +121,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
           phone && (
             <a
               href={`tel:${phone}`}
-              title={`Llamar por teléfono a ${name} al número ${phone}`}
+              title={`Call ${name} at ${phone}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -95,7 +136,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
             return (
               <a
                 href={url}
-                title={`Visitar el perfil de ${name} en ${network}`}
+                title={`Visit the ${name} profile on ${network}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -128,7 +169,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     padding-right: 32px;
   }
 
-.cv-link {
+  .cv-link {
     display: inline-flex;
     align-items: center;
     gap: 8px;
@@ -137,18 +178,103 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     font-weight: bold;
   }
   .cv-link:hover {
-    color: #000000; 
+    color: #000000;
   }
 
   h1 {
     font-size: 2rem;
   }
 
-  h2 {
-    color: #444;
-    font-weight: 500;
-    font-size: 1.1rem;
+  .tagline {
+    color: #333;
+    font-weight: 600;
+    font-size: 1rem;
     text-wrap: balance;
+  }
+
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 4px;
+  }
+
+  .services li {
+    font-size: 0.72rem;
+    color: #555;
+    background: #fafafa;
+    border: 1px solid #e4e4e4;
+    border-radius: 999px;
+    padding: 4px 10px;
+    letter-spacing: -0.01rem;
+  }
+
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    margin-top: 4px;
+  }
+
+  .meta span {
+    color: #666;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    letter-spacing: -0.05rem;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+  }
+
+  .cta-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    background: #111;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .cta-primary:hover {
+    background: #333;
+    transform: translateY(-1px);
+  }
+
+  .cta-primary svg,
+  .cta-ghost svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .cta-ghost {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 18px;
+    background: transparent;
+    border: 1px solid #e2e2e2;
+    border-radius: 6px;
+    color: #111;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+
+  .cta-ghost:hover {
+    background: #f5f5f5;
+    border-color: #111;
   }
 
   img {
@@ -156,15 +282,6 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     object-fit: cover;
     width: 128px;
     border-radius: 16px;
-  }
-
-  span {
-    color: #666;
-    display: flex;
-    align-items: center;
-    gap: 0.25rem;
-    font-size: 0.85rem;
-    letter-spacing: -0.05rem;
   }
 
   footer {
@@ -205,14 +322,22 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
       text-align: center;
     }
 
+    .services {
+      justify-content: center;
+    }
+
+    .meta {
+      justify-content: center;
+    }
+
+    .hero-actions {
+      justify-content: center;
+    }
+
     figure {
       display: flex;
       justify-content: center;
       align-items: center;
-    }
-
-    h2 {
-      text-wrap: balance;
     }
 
     figure {

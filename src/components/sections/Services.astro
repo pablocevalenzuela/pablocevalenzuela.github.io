@@ -1,0 +1,122 @@
+---
+import Section from "../Section.astro"
+
+import { freelanceServices, cta_one } from "@cv"
+---
+
+<Section title="Services">
+  <ul class="services-grid">
+    {
+      freelanceServices.map(({ title, description }) => {
+        return (
+          <li>
+            <article>
+              <h4>{title}</h4>
+              <p>{description}</p>
+              <a
+                href={cta_one.url}
+                class="book-link"
+                title={`Book a meeting: ${title}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Book a meeting
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </a>
+            </article>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  li {
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    padding: 1rem;
+    transition: all 0.2s ease;
+  }
+
+  li:hover {
+    border-color: #bbb;
+    transform: translateY(-1px);
+  }
+
+  h4 {
+    margin: 0 0 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #222;
+  }
+
+  p {
+    color: #666;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    text-wrap: pretty;
+  }
+
+  .book-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 0.75rem;
+    color: #111;
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .book-link svg {
+    width: 14px;
+    height: 14px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: transform 0.2s ease;
+  }
+
+  .book-link:hover {
+    text-decoration: underline;
+  }
+
+  .book-link:hover svg {
+    transform: translateX(4px);
+  }
+
+  @media (width <= 700px) {
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    h4 {
+      color: #eee;
+    }
+
+    li {
+      border-color: #333;
+    }
+
+    li:hover {
+      border-color: #eee;
+    }
+
+    .book-link {
+      color: #eee;
+    }
+  }
+</style>
