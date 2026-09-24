@@ -1,0 +1,35 @@
+---
+import Layout from "@/layouts/Layout.astro"
+
+import AIHero from "@/components/sections/AIHero.astro"
+import AIPoCs from "@/components/sections/AIPoCs.astro"
+import CTAOne from "@/components/sections/CTAOne.astro"
+import KeyboardManager from "@/components/KeyboardManager.astro"
+
+import { free_basics } from "@cv"
+const { name } = free_basics
+---
+
+<Layout title={`${name} - Applied AI & Agentic Systems`}>
+  <main>
+    <AIHero />
+    <AIPoCs />
+    <CTAOne />
+  </main>
+
+  <KeyboardManager />
+</Layout>
+
+<style>
+  main {
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+  }
+
+  @media (width <= 700px) {
+    main {
+      padding: 1rem;
+    }
+  }
+</style>

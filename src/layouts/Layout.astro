@@ -7,11 +7,15 @@ interface Props {
 
 const { title } = Astro.props
 
-const { image, summary } = basics
+const { name, image, summary } = basics
+
+const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? ""
+const pageUrl = `${siteUrl}${Astro.url.pathname}`
+const imageUrl = `${siteUrl}${image}`
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>{title}</title>
@@ -19,6 +23,18 @@ const { image, summary } = basics
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <link rel="preload" as="image" href={image} />
+    <link rel="canonical" href={pageUrl} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={name} />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={summary} />
+    <meta property="og:url" content={pageUrl} />
+    <meta property="og:image" content={imageUrl} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={summary} />
+    <meta name="twitter:image" content={imageUrl} />
   </head>
   <body>
     <slot />

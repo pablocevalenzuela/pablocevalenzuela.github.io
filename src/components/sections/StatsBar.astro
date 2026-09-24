@@ -1,0 +1,92 @@
+---
+import Section from "../Section.astro"
+
+import { stats } from "@cv"
+---
+
+<Section>
+  <ul class="stats">
+    {
+      stats.map(({ value, label }) => {
+        return (
+          <li>
+            <strong>{value}</strong>
+            <span>{label}</span>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    padding: 1.25rem 1rem;
+    background: #fafafa;
+  }
+
+  .stats li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+  }
+
+  .stats li + li {
+    border-left: 1px solid #e2e2e2;
+    padding-left: 1rem;
+  }
+
+  .stats strong {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #111;
+    letter-spacing: -0.03rem;
+    line-height: 1.2;
+  }
+
+  .stats span {
+    font-size: 0.72rem;
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 0.02rem;
+    line-height: 1.3;
+  }
+
+  @media (width <= 700px) {
+    .stats {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+
+    .stats li + li {
+      border-left: none;
+      padding-left: 0;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .stats {
+      background: #161616;
+      border-color: #333;
+    }
+
+    .stats li + li {
+      border-color: #333;
+    }
+
+    .stats strong {
+      color: #eee;
+    }
+
+    .stats span {
+      color: #999;
+    }
+  }
+</style>

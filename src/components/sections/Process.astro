@@ -1,0 +1,107 @@
+---
+import Section from "../Section.astro"
+
+import { process } from "@cv"
+---
+
+<Section title="How I work">
+  <ol class="steps">
+    {
+      process.map(({ title, description }, index) => {
+        return (
+          <li>
+            <span class="step-num" aria-hidden="true">
+              {String(index + 1).padStart(2, "0")}
+            </span>
+            <div class="step-body">
+              <h4>{title}</h4>
+              <p>{description}</p>
+            </div>
+          </li>
+        )
+      })
+    }
+  </ol>
+</Section>
+
+<style>
+  .steps {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .steps > li {
+    position: relative;
+    display: flex;
+    gap: 1rem;
+    padding: 0 0 1.5rem 3rem;
+  }
+
+  .steps > li:last-child {
+    padding-bottom: 0;
+  }
+
+  .steps > li:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    left: 1rem;
+    top: 2rem;
+    width: 1px;
+    height: 100%;
+    background: #e2e2e2;
+  }
+
+  .step-num {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 50%;
+    background: #fff;
+    color: #555;
+    font-size: 0.72rem;
+    font-weight: 700;
+  }
+
+  h4 {
+    margin: 0.25rem 0 0.25rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #222;
+  }
+
+  p {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-wrap: pretty;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .steps > li:not(:last-child)::before {
+      background: #333;
+    }
+
+    .step-num {
+      background: #111;
+      border-color: #333;
+      color: #aaa;
+    }
+
+    h4 {
+      color: #eee;
+    }
+
+    p {
+      color: #999;
+    }
+  }
+</style>

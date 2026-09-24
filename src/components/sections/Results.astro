@@ -1,30 +1,71 @@
 ---
 import Section from "../Section.astro"
 
-import { results } from "@cv"
+import { results, cta_one } from "@cv"
 ---
 
 <Section title="Some results obtained">
-  <ul>
+  <ul class="results-grid">
     {
-      results.map(({ company, desc, desc2, video }) => {
+      results.map(({ company, project, tags, metrics, desc, desc2, video }) => {
         return (
           <li>
-            <article>
-                {company && <h3 class="company-title">{company}</h3>}
-                <p>{desc}</p>
-                {desc2 && <p class="desc2">{desc2}</p>}
+            <article class="result-card">
+              {tags.length > 0 && (
+                <ul class="tags">
+                  {
+                    tags.map((tag: string) => (
+                      <li>{tag}</li>
+                    ))
+                  }
+                </ul>
+              )}
+              <h4>{company}</h4>
+              <p class="project">{project}</p>
+              {metrics.length > 0 && (
+                <ul class="metrics">
+                  {
+                    metrics.map((m) => (
+                      <li>
+                        <strong>{m.value}</strong>
+                        <span>{m.label}</span>
+                      </li>
+                    ))
+                  }
+                </ul>
+              )}
+              <p>{desc}</p>
+              {desc2 && (
+                <details class="tech-details">
+                  <summary>Technical details</summary>
+                  <p>{desc2}</p>
+                </details>
+              )}
+              <div class="actions">
                 <button
                   type="button"
                   class={video ? "demo-btn" : "demo-btn demo-btn--empty"}
                   data-video={video ? `/videos/${video}` : ""}
-                  aria-label={video ? `Ver sistema de ${company}` : `Video no disponible de ${company}`}
+                  aria-label={video ? `View project demo of ${company}` : `Video not available for ${company}`}
                 >
                   <svg class="play-icon" viewBox="0 0 24 24" aria-hidden="true">
                     <polygon points="7,4 20,12 7,20" />
                   </svg>
                   View project
                 </button>
+                <a
+                  href={cta_one.url}
+                  class="card-cta"
+                  title="Get similar results: book a meeting"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Get similar results
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 12h14M13 6l6 6-6 6" />
+                  </svg>
+                </a>
+              </div>
             </article>
           </li>
         )
@@ -33,7 +74,7 @@ import { results } from "@cv"
   </ul>
 
   <dialog id="video-dialog">
-    <button type="button" class="dialog-close" aria-label="Cerrar video">
+    <button type="button" class="dialog-close" aria-label="Close video">
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <path d="M6 6l12 12M18 6L6 18" />
       </svg>
@@ -80,37 +121,134 @@ import { results } from "@cv"
 </script>
 
 <style>
-  .company-title {
-    margin: 0 0 0.5rem;
+  .results-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .results-grid > li {
+    display: flex;
+  }
+
+  .result-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    padding: 1rem;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+  }
+
+  .result-card:hover {
+    border-color: #ccc;
+    transform: translateY(-2px);
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 0.5rem;
+  }
+
+  .tags li {
+    font-size: 0.68rem;
+    color: #555;
+    background: #fafafa;
+    border: 1px solid #e4e4e4;
+    border-radius: 999px;
+    padding: 2px 8px;
+  }
+
+  h4 {
+    margin: 0;
     font-size: 0.95rem;
     font-weight: 700;
-    color: #666;
+    color: #222;
+    line-height: 1.4;
   }
 
-  li {
-    margin-bottom: 1.25rem;
+  .project {
+    margin-top: 0.25rem;
+    color: #777;
+    font-size: 0.78rem;
+    text-wrap: balance;
   }
 
-  li:last-child {
-    margin-bottom: 0;
+  .metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 0.5rem;
+    margin: 0.75rem 0;
+    padding: 0.75rem 0;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
   }
 
-  .desc2 {
+  .metrics li {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .metrics strong {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #111;
+    line-height: 1.2;
+    letter-spacing: -0.03rem;
+  }
+
+  .metrics span {
+    font-size: 0.68rem;
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 0.02rem;
+    line-height: 1.3;
+  }
+
+  .tech-details {
     margin-top: 0.5rem;
+  }
+
+  .tech-details summary {
+    cursor: pointer;
+    color: #555;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .tech-details summary:hover {
+    text-decoration: underline;
+  }
+
+  .tech-details p {
+    margin-top: 0.5rem;
+    font-size: 0.82rem;
+  }
+
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-top: auto;
+    padding-top: 0.75rem;
   }
 
   .demo-btn {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    margin-top: 0.75rem;
     padding: 6px 14px;
     background: transparent;
     border: 1px solid #e2e2e2;
     border-radius: 6px;
     color: #111;
     font-family: inherit;
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.2s ease;
@@ -135,6 +273,35 @@ import { results } from "@cv"
     width: 14px;
     height: 14px;
     fill: currentColor;
+  }
+
+  .card-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    color: #111;
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .card-cta svg {
+    width: 14px;
+    height: 14px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: transform 0.2s ease;
+  }
+
+  .card-cta:hover {
+    text-decoration: underline;
+  }
+
+  .card-cta:hover svg {
+    transform: translateX(4px);
   }
 
   dialog {
@@ -190,54 +357,63 @@ import { results } from "@cv"
     stroke-linecap: round;
   }
 
-  .cta-minimal {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 20px;
-    color: #111; /* Color de texto oscuro */
-    text-decoration: none;
-    font-size: 0.95rem;
-    font-weight: 500;
-    border: 1px solid #e2e2e2; /* Borde suave */
-    border-radius: 6px;
-    transition: all 0.2s ease;
-    background-color: transparent;
+  @media (width <= 700px) {
+    .results-grid {
+      grid-template-columns: 1fr;
+    }
   }
 
-  .cta-minimal:hover {
-    background-color: #f5f5f5;
-    border-color: #111;
-    transform: translateY(-1px); /* Efecto sutil de elevación */
-  }
-
-  /* Animación para la flecha al hacer hover */
-  .cta-minimal svg {
-    transition: transform 0.2s ease;
-  }
-
-  .cta-minimal:hover svg {
-    transform: translateX(4px);
-  }
-
-  /* Si tu sitio tiene modo oscuro, puedes añadir esto: */
   @media (prefers-color-scheme: dark) {
-    .cta-minimal {
-      color: #eee;
+    .result-card {
       border-color: #333;
     }
-    .cta-minimal:hover {
-      background-color: #222;
+
+    .result-card:hover {
       border-color: #eee;
+    }
+
+    .tags li {
+      background: #1a1a1a;
+      border-color: #333;
+      color: #aaa;
+    }
+
+    h4 {
+      color: #eee;
+    }
+
+    .project {
+      color: #888;
+    }
+
+    .metrics {
+      border-color: #2a2a2a;
+    }
+
+    .metrics strong {
+      color: #eee;
+    }
+
+    .metrics span {
+      color: #999;
+    }
+
+    .tech-details summary {
+      color: #aaa;
     }
 
     .demo-btn {
       color: #eee;
       border-color: #333;
     }
+
     .demo-btn:hover {
-      background-color: #222;
+      background: #222;
       border-color: #eee;
+    }
+
+    .card-cta {
+      color: #eee;
     }
   }
 </style>
