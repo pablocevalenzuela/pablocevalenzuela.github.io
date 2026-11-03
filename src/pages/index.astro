@@ -6,6 +6,7 @@ import FreeHero from "@/components/sections/FreeHero.astro"
 import StatsBar from "@/components/sections/StatsBar.astro"
 import KeyboardManager from "@/components/KeyboardManager.astro"
 import CTAOne from "@/components/sections/CTAOne.astro"
+import TrustBar from "@/components/sections/TrustBar.astro"
 import Results from "@/components/sections/Results.astro"
 import Testimonials from "@/components/sections/Testimonials.astro"
 import Services from "@/components/sections/Services.astro"
@@ -18,8 +19,9 @@ const { name, label } = free_basics
 <Layout title={`${name} - ${label}`}>
   <main>
     <FreeHero />
-    <StatsBar />
     <FreeAbout />
+    <StatsBar />
+    <TrustBar />
     <Results />
     <Testimonials />
     <Services />

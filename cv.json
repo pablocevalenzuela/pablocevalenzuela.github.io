@@ -123,6 +123,12 @@
     { "value": "≈50%", "label": "Avg. SLA reduction" },
     { "value": "99.9%", "label": "Service availability" }
   ],
+  "trust_factors": [
+    { "title": "Secure by design", "detail": "ISO 27001 practices · IAM/KMS" },
+    { "title": "DevSecOps CI/CD", "detail": "Security gates in every release" },
+    { "title": "99.9% availability", "detail": "Monitored production operations" },
+    { "title": "P95 < 350 ms", "detail": "Stable response under load" }
+  ],
   "ai_intro": "Proofs of concept (PoCs) of applied AI and agentic systems. I combine LLMs, RAG, and cloud-native infrastructure to turn business data into conversational and decision-support tools — designed from day one with measurable quality, cost, and security.",
   "ai_pocs": [
     {
@@ -174,6 +180,16 @@
     "Python",
     "LangGraph",
     "LangChain",
+    "Google Colab",
+    "NLP",
+    "Hugging Face",
+    "Claude Code",
+    "OpenCode",
+    "Deep Learning",
+    "Machine Learning",
+    "RAG",
+    "MCP",
+    "A2A",
     "LangSmith",
     "RAG",
     "LLM",
@@ -181,46 +197,179 @@
     "Hugging Face",
     "FastAPI",
     "Google Cloud (GCP)",
-    "PostgreSQL"
+    "PostgreSQL/Supabase"
   ],
   "results": [
     {
       "company": "Bookland Bookstore, Chile",
-      "project": "Development and delivery of the Back-Office System",
-      "tags": ["Back-Office", "E-commerce", "Cloud"],
+      "project": "A Back-Office System",
+      "tags": ["Web App", "Cloud", "Software Development"],
       "metrics": [
         { "value": "−56%", "label": "Sales flow SLA" },
         { "value": "+30%", "label": "Avg. order value" },
         { "value": "−60%", "label": "Operational workload" },
         { "value": "99.9%", "label": "Channel availability" }
       ],
+      "security": [
+        "ISO 27001-aligned controls",
+        "IAM/KMS & least privilege",
+        "Security gates in CI/CD"
+      ],
+      "reliability": [
+        "99.9% availability",
+        "P95 ≈345 ms · P99 ≈0.6 s",
+        "Monitoring & auto-scaling"
+      ],
+      "security_details": "Security was addressed with ISO 27001-aligned practices and IAM/KMS access management in Pipeline and GCP.",
+      "tech": [
+        "React",
+        "TypeScript",
+        "Python",
+        "Django/DRF",
+        "Redis & Celery",
+        "Supabase/PostgreSQL",
+        "GCP, Cloud Run",
+        "SonarQube, Pytest",
+        "GCP Firebase Hosting",
+        "Docker",
+        "GitHub Actions/DevSecOps"
+      ],
+      "duration": "2 months",
+      "delivery_status": "Delivered & running in production",
       "desc": "Reduced the online store sales workflow SLA by ≈56%, increased AOV by ≈30%, and cut the online channel's operational workload by ≈60% — all within a two-month timeframe — by developing and delivering a Back-Office System to support business operations.",
-      "desc2": "UX improvements, business stability (SRE) and costs (FinOps): 95% of user requests to the back-office system are resolved in under a third of a second (P95 latency ≈345ms), and P99 latency was optimized to ≈0.6s — so even during peak times like Black Friday the system responds in just over half a second. Over 99.9% availability for the channel integrated with the online store ensured full operational continuity during business hours, and the Total Cost of Ownership (TCO) was reduced by ≈30% by optimizing monthly IT investment to pay strictly for the exact seconds of system usage.",
+      "benefits": [
+        "Reduced the online store sales workflow SLA by ≈56%.",
+        "Increased AOV by ≈30%.",
+        "Cut the online channel's operational workload by ≈60% — all within a two-month timeframe — by developing and delivering a Back-Office System to support business operations."
+      ],
+      "desc2": "Optimized compute costs through auto-scaling, pay-as-you-go, and FinOps, with a TCO (CapEx/OpEx) model aligned with the organization’s budget.",
       "video": "bookland_project.mp4"
     },
     {
       "company": "Quantus - Water & Earth Spa, Chile",
-      "project": "Development and delivery of the MVP Web App",
-      "tags": ["MVP Web App", "DevSecOps", "Monitoring"],
+      "project": "A MVP Web App",
+      "tags": ["Web App", "Cloud", "Software Development"],
       "metrics": [
         { "value": "−35%", "label": "Time-to-market" },
         { "value": "−45%", "label": "TCO / cloud costs" }
       ],
+      "security": [
+        "DevSecOps CI/CD",
+        "Least-privilege access",
+        "Secrets management"
+      ],
+      "reliability": [
+        "Monitoring & alerting",
+        "Auto-scaling & serverless",
+        "Cost-efficient resilience"
+      ],
+      "security_details": "Security and ISO 27001 controls were embedded in the DevSecOps CI/CD pipeline.",
+      "tech": [
+        "React",
+        "TypeScript",
+        "Python",
+        "Django/DRF",
+        "Redis & Celery",
+        "Supabase/PostgreSQL",
+        "GCP, Cloud Run",
+        "SonarQube, Pytest",
+        "GCP Firebase Hosting",
+        "Docker",
+        "GitHub Actions/DevSecOps"
+      ],
+      "duration": "2 months",
+      "delivery_status": "Delivered & running in production",
       "desc": "Reduced the MVP's time-to-market (TTM) by ≈35% by creating a DevSecOps CI/CD pipeline during the development and deployment of a Monitoring System for irrigation canals in Chile.",
+      "benefits": [
+        "Reduced the MVP's time-to-market (TTM) by ≈35% by creating a DevSecOps CI/CD pipeline during the development and deployment of a Monitoring System for irrigation canals in Chile."
+      ],
       "desc2": "Reduced the Total Cost of Ownership (TCO) and monthly cloud provider costs by ≈45% by implementing auto-scaling based on the volume of active app users, adopting a pay-per-use model for computing power, and utilizing the cloud provider's serverless execution model.",
       "video": "aquatierra_project.mp4"
     },
     {
       "company": "Ehac Group Ltda., Chile",
-      "project": "Development and delivery of the custom Web App ERP System",
-      "tags": ["ERP System", "Web App SPA", "Maintenance"],
+      "project": "A custom ERP System",
+      "tags": ["Web App", "Cloud", "Software Development"],
       "metrics": [
         { "value": "2h → 30m", "label": "Maintenance SLA" },
         { "value": "−40%", "label": "WO workload" }
       ],
+      "security": [
+        "DevSecOps CI/CD",
+        "Least-privilege access",
+        "Audit-ready delivery"
+      ],
+      "reliability": [
+        "Maintenance SLA 2h → 30m",
+        "Monitored production",
+        "8-week delivery"
+      ],
+      "security_details": "Cybersecurity and ISO 27001 with pip-audit and DevSecOps pipeline.",
+      "tech": [
+        "React",
+        "TypeScript",
+        "Python",
+        "Django/DRF",
+        "Redis & Celery",
+        "Supabase/PostgreSQL",
+        "GCP, Cloud Run",
+        "SonarQube, Pytest",
+        "GCP Firebase Hosting",
+        "Docker",
+        "GitHub Actions/DevSecOps"
+      ],
+      "duration": "8 weeks",
+      "delivery_status": "Delivered & running in production",
       "desc": "Reduced the air conditioning maintenance SLA for group clients from 2 hours to 30 minutes — covering the entire process from request to service delivery — and cut the workload by ≈40% regarding work order (WO) management, inventory control (equipment and supplies), and technician scheduling/assignment, by developing and deploying a custom web-based SPA integrated with the ERP system.",
-      "desc2": "",
+      "benefits": [
+        "Reduced the air conditioning maintenance SLA for group clients from 2 hours to 30 minutes — covering the entire process from request to service delivery.",
+        "Cut the workload by ≈40% regarding work order (WO) management, inventory control (equipment and supplies), and technician scheduling/assignment, by developing and deploying a custom web-based SPA integrated with the ERP system."
+      ],
+      "desc2": "I optimized computing costs using autoscaling, a pay-as-you-go model, and FinOps principles—factoring in TCO (CapEx/OpEx) in alignment with the organization’s budget. I also developed a disaster recovery plan for critical failures, enabling immediate rollbacks (in under one minute) on Cloud Run.",
       "video": "ehac_project.mp4"
+    },
+    {
+      "company": "Agentic System ChatBot",
+      "project": "An Agentic System PoC",
+      "tags": ["AI Agentic System", "ChatBot System"],
+      "metrics": [
+        { "value": "100%", "label": "Task success (4/4)" },
+        { "value": "5/5", "label": "Quality score" },
+        { "value": "$0.0015", "label": "Cost per task" },
+        { "value": "4.2K", "label": "Tokens per task" }
+      ],
+      "security": [
+        "ISO 42001 / ISO 23894 guidelines",
+        "Controlled agent actions",
+        "Secrets management"
+      ],
+      "reliability": [
+        "100% task success (4/4)",
+        "Quality score 5/5",
+        "Observability with LangSmith"
+      ],
+      "security_details": "AI risk management followed ISO 42001 / ISO 23894 guidelines, with controlled agent actions, secrets management and observability over each execution.",
+      "tech": [
+        "Python",
+        "LangGraph",
+        "LangSmith",
+        "LLM",
+        "Gradio",
+        "Guardrails",
+        "MCP & RAG flow",
+        "FastAPI",
+        "Google Cloud (GCP)",
+        "PostgreSQL"
+      ],
+      "delivery_status": "Completed & deployed in GCP",
+      "desc": "I developed a functional PoC of an Agentic System that was a conversational ChatBot to support back-office tasks in eCommerce business in Chile.",
+      "benefits": [
+        "Workload reduced by ~60%.",
+        "Customer service SLAs reduced by ~55% before and after purchase."
+      ],
+      "desc2": "The PoC was validated end-to-end on 4 real back-office tasks, achieving 100% task success and a 5/5 quality score, with an average cost of $0.0015 USD and 4.2K tokens per task.",
+      "url": "https://github.com/pablocevalenzuela/poc_ecomm_support_back_office_agent_v1",
+      "video": "PoC-conversational-agent-chatbot-ecommerce.mp4"
     }
   ],
   "testimonials": [
