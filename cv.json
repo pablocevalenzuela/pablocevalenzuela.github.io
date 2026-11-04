@@ -361,6 +361,7 @@
         "Google Cloud (GCP)",
         "PostgreSQL"
       ],
+      "duration": "1 month",
       "delivery_status": "Completed & deployed in GCP",
       "desc": "I developed a functional PoC of an Agentic System that was a conversational ChatBot to support back-office tasks in eCommerce business in Chile.",
       "benefits": [
